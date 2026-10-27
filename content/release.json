@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "version": "公测客户端基线",
+  "boundaryDate": "2026-10-13",
+  "reviewedOn": "2026-10-27",
+  "scope": "仅包含已核验客户端的界面可见资料，未纳入后续资源补丁。",
+  "allowedFields": [
+    "name",
+    "type",
+    "description"
+  ],
+  "reviewedEntries": [
+    "credit-points",
+    "brilliant-diamonds",
+    "primal-crystal"
+  ],
+  "gameDigest": "a88057f8869dc2f08e22b701742b073cb466ac563a05f30e3bb8d3a92684e4a9"
+}

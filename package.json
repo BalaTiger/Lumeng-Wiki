@@ -1,0 +1,14 @@
+{
+  "name": "lumeng-wiki",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview:build": "node scripts/build.mjs --preview",
+    "test": "node --test",
+    "preview": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
