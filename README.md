@@ -1,14 +1,6 @@
 # 绿梦：时空之声 Wiki
 
-无依赖的静态资料站，仅使用本仓库GitHub Pages。当前修订为本地审阅稿，未推送。生产构建在publicationReview获准前会失败。
-
-角色图鉴提供姓名搜索和稀有度、职业、属性、风格组合多选。同组OR、跨组AND；支持取消单项、清空单组/全部、结果数与空结果。查询参数保存状态，点击真实头像进入静态详情后可返回原筛选；375/390像素手机默认折叠条件、显示紧凑头像卡。
-
-实际内容为3名正式剧情试用角色的头像和UI分类字段、15组45条1级静态技能简述、3条货币道具，以及3篇辅助官网文章。技能只在角色条目内，货币是道具图鉴内部类型。没有未经核实的属性数值、养成材料、装备或卡池名单。
-
-## 本地运行
-
-Node.js22+，无需安装依赖。
+原生静态HTML/CSS/JavaScript项目，使用Node.js22+自有构建脚本，不是Vite+React，无需安装依赖。
 
 ```sh
 npm test
@@ -16,14 +8,12 @@ npm run preview:build
 npm run preview
 ```
 
-预览：http://127.0.0.1:4173/Lumeng-Wiki/characters/ 。只监听127.0.0.1。17个真实路径页面有静态正文、canonical和sitemap；JavaScript增强搜索和筛选，正文可直接阅读。
+本地预览：http://127.0.0.1:4173/Lumeng-Wiki/。生产构建使用https://lvmengwiki.top/根路径。发布目标仅该仓库GitHub Pages。
 
-## 审核边界
+当前收录16名正式服确认角色、31套124件可由正常UI预览的装备，以及29条资源/校准材料。未宣称覆盖全部道具或实时卡池。
 
-content/game.json是封闭字段的公开投影，content/release.json保存允许字段/条目及摘要。HTML与搜索均消费同一投影。精确私有提交、任务链、UI脚本绑定与来源映射仅保留在忽略的.audit中。
+## 素材目录
 
-角色品质依已核实UI标识分金色/紫色，不将内部数值擅自解释为星级或字母等级。头像仅复制三个确切UI图像，移除文本元数据但保留原图像数据。9条动态技能模板及其他未核实字段未进入投影。
+src/assets下按characters/illustrations、characters/portraits、badges、skills、backgrounds、brand、collections分类；每个发布文件有明确允许清单和哈希。public没有自动发布约定。用户原始截图请放.audit/references，该目录忽略、不提交、不发布，含标识的原图须先裁切为干净派生资源。不要把配置表或开发资源目录放入资产目录。
 
-实际发布仍为第一阶段7f7b1d9。新角色页运行时可见性与本轮内容须另行审阅，不得复用原精确提交的发布授权。
-
-参见[UI来源](docs/UI-SOURCES.md)、[信息架构与交互](docs/INFORMATION-ARCHITECTURE.md)、[发布流程](docs/PUBLISHING.md)、[官网素材](docs/SOURCES.md)。
+所有游戏数据固定已核实成功发布版本；字段通过正常UI绑定证明，只保留显示投影。参见docs/UI-SOURCES.md、docs/PUBLISHING.md。

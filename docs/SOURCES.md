@@ -10,9 +10,9 @@
 
 | 本地文件 | 公开 URL | 字节 | SHA-256 | 可见证据 |
 |---|---|---:|---|---|
-| hero.jpg | https://lmweb.zhuziplay.com/pc/AlphaHomeView/bg5_3840.jpg | 1202396 | 2874c7faea8e1adc7c3ca4c33217e261f4dd4b07abfdbb4b0a9ca9c0d24baabf | 官网首页当前 DOM 的主视觉 img，公开画面为角色群像；不读取开发资源。 |
-| logo.png | https://lmweb.zhuziplay.com/pc/Logo.png | 8152 | e1637c8726bd86708e0b408937c1d04393277998fb05db477ef24d84fb454b71 | 官网导航栏当前 DOM 的 logo 图片。 |
-| favicon.png | https://lvmeng.zhuziplay.com/favicon-32x32.png | 2887 | c409468e220d754c44910d6acf1d3a03edbd7efc08236f864468e957a1937092 | 官网 HTML 中明确链接的 32×32 图标。 |
+| backgrounds/hero.jpg | https://lmweb.zhuziplay.com/pc/AlphaHomeView/bg5_3840.jpg | 1202396 | 2874c7faea8e1adc7c3ca4c33217e261f4dd4b07abfdbb4b0a9ca9c0d24baabf | 官网首页当前 DOM 的主视觉 img，公开画面为角色群像；不读取开发资源。 |
+| brand/logo.png | https://lmweb.zhuziplay.com/pc/Logo.png | 8152 | e1637c8726bd86708e0b408937c1d04393277998fb05db477ef24d84fb454b71 | 官网导航栏当前 DOM 的 logo 图片。 |
+| brand/favicon.png | https://lvmeng.zhuziplay.com/favicon-32x32.png | 2887 | c409468e220d754c44910d6acf1d3a03edbd7efc08236f864468e957a1937092 | 官网 HTML 中明确链接的 32×32 图标。 |
 
 ## 功能与排版参考
 

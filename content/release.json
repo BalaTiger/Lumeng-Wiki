@@ -3,7 +3,7 @@
   "version": "正式客户端基线",
   "boundaryDate": "2026-10-13",
   "reviewedOn": "2026-10-27",
-  "scope": "固定版本本地审阅：三名正式剧情试用角色的头像、品质标识、职业、属性、风格与已核实的1级技能简述；三种资源货币。未核实的动态模板、属性数值、培养材料、装备与卡池不收录。",
+  "scope": "固定正式版本资料；正式服已确认10名A级及6名S级角色。属性按无装备、无校准和密录加成展示；技能、校准、密录、服饰采用正常UI显示字段。诗凛缺少面板绑定的一组技能不收录。",
   "allowedFields": [
     "name",
     "type",
@@ -14,11 +14,24 @@
     "brilliant-diamonds",
     "primal-crystal"
   ],
-  "gameDigest": "ba971b1ecbfd46f33634fd98689e8ae8280afa626dad775e68ed387382ce98b5",
+  "gameDigest": "225b43460fa7ee24cf45feeef5921dfbdbebb332df3c04a1a215134a6fe4526a",
   "reviewedCharacters": [
     "he-yulian",
     "frieze",
-    "panacea"
+    "panacea",
+    "luoxi",
+    "lita",
+    "mofei",
+    "daliya",
+    "beiyi",
+    "shilin",
+    "lilang",
+    "ameng",
+    "haila",
+    "take",
+    "aiti",
+    "mata",
+    "litlisi"
   ],
   "characterFields": [
     "name",
@@ -27,7 +40,23 @@
     "element",
     "style",
     "portrait",
-    "skills"
+    "skills",
+    "outfits",
+    "skillLevels",
+    "destiny",
+    "calibration",
+    "attributeNames",
+    "attributeLevels",
+    "calibrationCosts",
+    "calibrationMaterials",
+    "calibrationStages",
+    "reviewStatus",
+    "detailStatus",
+    "art",
+    "cardArt",
+    "professionIcon",
+    "elementIcon",
+    "rarityIcon"
   ],
-  "publicationReview": "local-review"
+  "publicationReview": "approved"
 }
