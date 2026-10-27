@@ -80,7 +80,26 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const gameBytes=fs.readFileSync(path.join(root,'content/game.json')),game=JSON.parse(gameBytes);
  validate(publicData,release,game,gameBytes);requirePublishable(release,preview,game.characters);
  const collectionBytes=fs.readFileSync(path.join(root,'content/collections.json'));if(digest(collectionBytes)!=='3fb3f92a3a91bc1dcc6f1dd5112e2c266e411cee184f7eda7ef82c75c561d895')throw Error('Unreviewed collection content');const collections=JSON.parse(collectionBytes).records;
+ const extraBytes=fs.readFileSync(path.join(root,'content/extra.json'));if(digest(extraBytes)!=='8af9bf71678c840103d88cc150e3dea8d6fa3c529d45c9089882bfb3835d5f83')throw Error('Unreviewed extra UI content');const extra=JSON.parse(extraBytes);
  const approvedAssets={
+"banners/permanent-recruitment.webp":"d8f5ee58935a2cf8c456040c8bb9721a9d05b5584ad295efb4376ffd88fca1a6",
+"banners/beginner-recording.webp":"fea031a2c6c56d02c93ab03d9e183de317bb5068f236571e5d1394c8b418023c",
+"banners/thousand-transformations.webp":"0aa83b13627aee2614e9114caea4f0c915ab9354164615dd459a1d8127a409c4",
+"injectors/injector-01.webp":"2621217458b50b409048911c48b0c246fc309490814a8508fa3dbd42c2f41f29",
+"injectors/injector-02.webp":"5aa5379cddc106752f8875951cb43980ac7990ef1ca88835dabc1655813eee08",
+"injectors/injector-03.webp":"3ed3bd730b17b1eb14d9122e2d211d0ee94991ba775f28fac153c2c50f60fe95",
+"injectors/injector-04.webp":"5832bb6ed1e46b68144cb0cad3fbf411d87cd3cdb70531d5797cda5020f4d6bb",
+"injectors/injector-05.webp":"44fa82a79c356e8e72b9430f398791e0d1eb9f6bb412ef47ad1f2d0d9275aace",
+"injectors/injector-06.webp":"0ee9e498bbf1aeedf966467e9075cb239ac5a9698e3d26b17cb40ef112e9d18f",
+"injectors/injector-07.webp":"55532f999e8ae0e1d845c3f0156dc4e14b38d9b35ccdbbc5b567d66e540cd876",
+"maps/aurum-fortress.webp":"a6f0a540de44efb8b066193d12b25dd6b2d1fa56f08803dda7a0126f44142725",
+"maps/inverness-crater.webp":"7f407dd86d82b54b2450e63f593adce633a6e8072d5fd5a6b88c67193756773e",
+"maps/valkyrie-fortress.webp":"26f38bf4a3fb5a648048d543a59d57c5b698be28651e364efb0659188342f2af",
+"maps/crater-depths.webp":"be7f19d8c6e51f6f0d06d77bf4635e07ed07b3baccfe6efee37d9bcd231ae7b8",
+"maps/newt-base.webp":"4e137dcfe57f843716456cdbb448d2479bec6a37d2e202a2f26ad5774b4312d5",
+"outfits/he-yulian-1.webp":"394d8f608036c48f52c5359a8b03c32daa565ec14ad2b175450c4b25845ed143",
+"outfits/luoxi-1.webp":"5c994026ddd41cb793d221a95b9e4efd8bd80f44094ad6a1fea85e983161d193",
+"outfits/litlisi-1.webp":"45f9b6df958bc9f66cd558c862ec5f20d2f3e0d27473401c3f9438794832d485",
 "collections/equipment-001.png":"20838194064f760dc4d660ad3c85c6b93e74f08ef4382493bdcf44e0aac34a3a",
 "collections/equipment-002.png":"76f53fa07e34b6628e12b76bf1148e1636bba32d364dc93f2edd2e5645915c85",
 "collections/equipment-003.png":"850e278f5bc226dc3fb8897333ee3b7d84427eb5ae7b83269c637f373a3a73c6",
@@ -311,14 +330,15 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const fixedOutput=path.join(root,'dist');if(path.resolve(output)!==fixedOutput)throw Error('Output must be the repository dist directory');
  // Only the fixed repository dist folder is replaced; output uses an explicit file list.
  fs.rmSync(fixedOutput,{recursive:true,force:true});fs.mkdirSync(path.join(fixedOutput,'assets'),{recursive:true});
- for(const file of ['index.html','style.css','app.js','render.js','catalog.js','collections.js'])fs.copyFileSync(path.join(root,'src',file),path.join(fixedOutput,file));
+ for(const file of ['index.html','style.css','app.js','render.js','catalog.js','collections.js','extra.js','hero-backgrounds.js'])fs.copyFileSync(path.join(root,'src',file),path.join(fixedOutput,file));
  for(const file of Object.keys(approvedAssets)){fs.mkdirSync(path.dirname(path.join(fixedOutput,'assets',file)),{recursive:true});fs.copyFileSync(path.join(root,'src/assets',file),path.join(fixedOutput,'assets',file));}
  const source={key:'release-ui',title:'已核验客户端的游戏内物品详情',url:'#/version',evidence:'已解锁背包 → 顶部资源栏 → 资源详情。仅收录界面显示的名称、类型和说明。'};
  const legacyCurrencyRecords=game.entries.map(item=>({slug:item.slug,category:'资源货币',title:item.name,summary:item.description.split(/[。\n]/)[0]+'。',label:'游戏内 UI 资料',paragraphs:item.description.split('\n'),facts:[{label:'物品类型',value:item.type,source:'release-ui'},{label:'游戏内查看位置',value:item.uiPath,source:'release-ui'}],source:'release-ui'}));
  const records=collections.map(c=>({slug:c.slug,title:c.name,category:c.kind==='equipment'?'装备图鉴':'道具图鉴',summary:c.description.split(/[。\n]/)[0],label:'资料',paragraphs:[c.description],facts:[{label:'类型',value:c.type,source:'release-ui'},{label:'品质',value:c.quality+'级',source:'release-ui'}],source:'release-ui',collection:c}));
+ const extraRecords=[...extra.injectors,...extra.maps].map(c=>({slug:c.slug,title:c.name,category:c.kind==='map'?'地图一览':'注射器一览',summary:c.description,paragraphs:[c.description],facts:[],source:'release-ui',label:'资料',collection:c})).concat(extra.banners.map(b=>({slug:'banner-'+b.slug,title:b.name,category:'卡池档案',summary:b.type,paragraphs:[b.description],facts:[],source:'release-ui',label:'刻录规则',banner:b})));
  const characterSource={key:'release-story',title:'固定版本2D角色图与UI分类·正式角色审阅',url:'#/version',evidence:'16人正式服可获取名单由玩家确认；显示字段与图片均固定发布版本。'};
  const characterRecords=game.characters.map(c=>({slug:c.slug,category:'角色图鉴',title:c.name,summary:c.profession+' · '+c.element+' · '+c.style,label:'角色资料',paragraphs:['正式服角色资料，字段按正常UI显示范围收录。'],facts:[{label:'稀有度',value:c.rarity,source:'release-story'},{label:'职业',value:c.profession,source:'release-story'},{label:'属性',value:c.element,source:'release-story'},{label:'风格',value:c.style,source:'release-story'}],character:{reviewStatus:c.reviewStatus,detailStatus:c.detailStatus,art:c.art,cardArt:c.cardArt,professionIcon:c.professionIcon,elementIcon:c.elementIcon,rarityIcon:c.rarityIcon,rarity:c.rarity,profession:c.profession,element:c.element,style:c.style,portrait:c.portrait,skillLevels:c.skillLevels,destiny:c.destiny,calibration:c.calibration,attributeNames:c.attributeNames,attributeLevels:c.attributeLevels,calibrationCosts:c.calibrationCosts,calibrationMaterials:c.calibrationMaterials,calibrationStages:c.calibrationStages,outfits:c.outfits},source:'release-story'}));
- const safe={checkedOn:publicData.checkedOn,sources:[...publicData.sources,source,characterSource],articles:[...characterRecords,...records,...publicData.articles],release:{status:release.status,version:release.version,boundaryDate:release.boundaryDate,reviewedOn:release.reviewedOn,scope:release.scope,gameEntryCount:collections.length+game.characters.length,itemCount:collections.filter(c=>c.kind==='item').length,characterCount:game.characters.length,allowedFieldCount:release.allowedFields.length}};
+ const safe={extra,checkedOn:publicData.checkedOn,sources:[...publicData.sources,source,characterSource],articles:[...characterRecords,...records,...extraRecords,...publicData.articles],release:{status:release.status,version:release.version,boundaryDate:release.boundaryDate,reviewedOn:release.reviewedOn,scope:release.scope,gameEntryCount:collections.length+game.characters.length,itemCount:collections.filter(c=>c.kind==='item').length,characterCount:game.characters.length,allowedFieldCount:release.allowedFields.length}};
  fs.writeFileSync(path.join(fixedOutput,'data.js'),'export const '+Object.entries(safe).map(([k,v])=>k+' = '+JSON.stringify(v)).join(',\n')+';\n');
  fs.writeFileSync(path.join(fixedOutput,'.nojekyll'),'');
  fs.writeFileSync(path.join(fixedOutput,'robots.txt'),preview?'User-agent: *\nDisallow: /\n':'User-agent: *\nAllow: /\nSitemap: https://lvmengwiki.top/sitemap.xml\n');
@@ -326,7 +346,7 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const html=fs.readFileSync(path.join(fixedOutput,'index.html'),'utf8').replaceAll('/Lumeng-Wiki/',siteBase);
  const rendered=html.replace('<body>','<body data-mode="'+(preview?'preview':'production')+'">').replace('<meta name="description"',preview?'<meta name="robots" content="noindex,nofollow"><meta name="description"':'<meta name="description"');
  const renderPage=createRenderer(safe,siteBase);
- const pagePaths=['','characters','equipment','items','banners','catalog','version','policy',...safe.articles.map(a=>'article/'+a.slug)];
+ const pagePaths=['','characters','equipment','items','injectors','maps','banners','catalog','version','policy',...safe.articles.map(a=>'article/'+a.slug)];
  const pageFiles=[];
  for(const route of pagePaths){
    const body=renderPage(new URL('/'+route,'https://local.invalid'));
@@ -339,7 +359,7 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const notFound=rendered.replace('<main id="main" tabindex="-1"></main>','<main id="main" tabindex="-1">'+renderPage(new URL('/not-found','https://local.invalid'))+'</main>').replace('<meta name="description"','<meta name="robots" content="noindex,follow"><meta name="description"');
  fs.writeFileSync(path.join(fixedOutput,'404.html'),notFound);
  const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+pagePaths.map(route=>'<url><loc>'+siteOrigin+siteBase+(route?route+'/':'')+'</loc></url>').join('')+'</urlset>\n';fs.writeFileSync(path.join(fixedOutput,'sitemap.xml'),sitemap);
- const files=[...pageFiles,'404.html','style.css','app.js','render.js','catalog.js','collections.js','data.js','robots.txt','sitemap.xml','.nojekyll',...Object.keys(approvedAssets).map(file=>'assets/'+file)];
+ const files=[...pageFiles,'404.html','style.css','app.js','render.js','catalog.js','collections.js','extra.js','hero-backgrounds.js','data.js','robots.txt','sitemap.xml','.nojekyll',...Object.keys(approvedAssets).map(file=>'assets/'+file)];
  const manifest=files.map(file=>({file,bytes:fs.statSync(path.join(fixedOutput,file)).size,sha256:digest(fs.readFileSync(path.join(fixedOutput,file)))}));
  fs.writeFileSync(path.join(fixedOutput,'build-manifest.json'),JSON.stringify({mode:preview?'preview':'production',files:manifest},null,2)+'\n');
  console.log('Built '+(preview?'LOCAL PREVIEW':'PRODUCTION')+': '+files.length+' explicit files; '+game.entries.length+' UI-reviewed currency records; '+game.characters.length+' approved character profiles.');return manifest;

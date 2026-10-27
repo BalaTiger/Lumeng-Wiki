@@ -1,7 +1,7 @@
-import {articles,checkedOn,release,sources} from './data.js';
+import {articles,checkedOn,release,sources,extra} from './data.js';
 import {createRenderer} from './render.js';
 const main=document.querySelector('main'),base=new URL(document.querySelector('base').href).pathname;
-const page=createRenderer({articles,checkedOn,release,sources},base);
+const page=createRenderer({articles,checkedOn,release,sources,extra},base);
 let renderedLocation=location.pathname+location.search;
 function route(){const u=new URL(location.href);u.pathname='/'+u.pathname.slice(base.length);return u;}
 function render(){renderedLocation=location.pathname+location.search;main.innerHTML=page(route());document.title=(main.querySelector('h1')?.textContent||'首页')+' · 绿梦：时空之声 Wiki';document.querySelector('link[rel=canonical]').href=location.origin+base+route().pathname.replace(/^\//,'');document.querySelectorAll('.sidebar a,.topbar nav a').forEach(a=>{if(new URL(a.href).pathname===location.pathname)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});bindSearch();bindCharacterDetail();window.scrollTo({top:0});}
@@ -24,3 +24,5 @@ function activateDetailTab(id){const root=main.querySelector('.character-dossier
 function bindCharacterDetail(){const root=main.querySelector('.character-dossier');if(!root)return;activateDetailTab(location.hash.slice(1));root.querySelectorAll('[data-skill-group]').forEach((g,i)=>g.hidden=i!==0);}
 main.addEventListener('click',event=>{const tab=event.target.closest('[data-detail-tab]');if(tab){event.preventDefault();activateDetailTab(tab.dataset.detailTab);history.pushState(null,'',tab.href);tab.closest('nav').scrollIntoView({block:'start',behavior:'instant'});return;}const pick=event.target.closest('[data-skill-pick]');if(!pick)return;const scope=pick.closest('[data-detail-panel]');scope.querySelectorAll('[data-skill-pick]').forEach(b=>b.setAttribute('aria-pressed',String(b===pick)));scope.querySelectorAll('[data-skill-group]').forEach(g=>g.hidden=g.dataset.skillIndex!==pick.dataset.skillPick);});
 window.addEventListener('hashchange',()=>activateDetailTab(location.hash.slice(1)));
+
+main.addEventListener('click',event=>{const link=event.target.closest('[data-outfit-select]');if(!link)return;event.preventDefault();const selected=link.dataset.outfitSelect;main.querySelectorAll('[data-outfit-preview]').forEach(panel=>panel.hidden=panel.dataset.outfitPreview!==selected);main.querySelectorAll('[data-outfit-select]').forEach(a=>{if(a===link)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');});main.querySelectorAll('[data-detail-tab]').forEach(tab=>{const url=new URL(tab.href);url.searchParams.set('outfit',selected);tab.href=url.href;});history.pushState(null,'',link.href);renderedLocation=location.pathname+location.search;});
