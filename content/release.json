@@ -3,7 +3,7 @@
   "version": "公测客户端基线",
   "boundaryDate": "2026-10-13",
   "reviewedOn": "2026-10-27",
-  "scope": "仅包含已核验客户端的界面可见资料，未纳入后续资源补丁。",
+  "scope": "固定客户端版本：收录三名正式剧情试用角色的姓名，以及三种资源货币的名称、类型和说明。角色详细资料、装备、技能与卡池档案尚未收录。",
   "allowedFields": [
     "name",
     "type",
@@ -14,5 +14,13 @@
     "brilliant-diamonds",
     "primal-crystal"
   ],
-  "gameDigest": "a88057f8869dc2f08e22b701742b073cb466ac563a05f30e3bb8d3a92684e4a9"
+  "gameDigest": "7673dd6dd475065ff6465215457dc0974f10b2578a65a15dbbd0ad0dafd98fb7",
+  "reviewedCharacters": [
+    "he-yulian",
+    "frieze",
+    "panacea"
+  ],
+  "characterFields": [
+    "name"
+  ]
 }

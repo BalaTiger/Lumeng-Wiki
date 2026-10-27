@@ -19,3 +19,10 @@
 角色页面只列出玩家已拥有角色，不能据完整角色表证明所有角色已经可获得。此次没有导出角色、装备、技能、其他道具或开发资源。也未导出设置中的 release 隐藏项。
 
 构建验证闭合字段集合、逐条人工审核的内容摘要和条目清单，拒绝额外字段、额外条目、文本篡改和未经审核的图片。新增条目必须重新审核，不得只修改摘要放行。
+
+
+## Local character-name revision
+
+Three story-trial character names are projected from the pinned released-client story flow into a visible team-join tooltip. The public data contains only a human slug, displayed name and UI route. Internal identifiers, mission graph, character stats, rarity, skill/equipment fields and acquisition/pool claims are excluded. The active CharacterViewV3 supports story-trial display, but that does not by itself authorize exporting every detail. Equipment/skills/banner indexes currently show collection status only.
+
+The original three-currency release visibility was supplemented by user/player factual confirmation, not developer endorsement or agent-run client verification.
