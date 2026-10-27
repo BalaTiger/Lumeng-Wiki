@@ -1,0 +1,251 @@
+{
+  "regions": [
+    {
+      "slug": "aurum-fortress",
+      "name": "奥鲁姆要塞",
+      "layers": [
+        {
+          "key": "floor-1",
+          "name": "1层",
+          "image": "assets/maps/aurum-fortress-terrain.webp",
+          "width": 4096,
+          "height": 1928
+        }
+      ],
+      "zones": [
+        {
+          "key": "zone-1",
+          "name": "海文利区",
+          "x": 0.825827,
+          "y": 0.272461
+        },
+        {
+          "key": "zone-3",
+          "name": "居住区",
+          "x": 0.147978,
+          "y": 0.37915
+        },
+        {
+          "key": "zone-4",
+          "name": "盐碱地",
+          "x": 0.375919,
+          "y": 0.280273
+        },
+        {
+          "key": "zone-2",
+          "name": "维修通道",
+          "x": 0.110064,
+          "y": 0.577148
+        },
+        {
+          "key": "zone-5",
+          "name": "环形空庭",
+          "x": 0.225184,
+          "y": 0.557617
+        }
+      ]
+    },
+    {
+      "slug": "inverness-crater",
+      "name": "因弗内斯巨坑",
+      "layers": [
+        {
+          "key": "floor-1",
+          "name": "1层",
+          "image": "assets/maps/inverness-crater-terrain.webp",
+          "width": 4096,
+          "height": 931
+        }
+      ],
+      "zones": [
+        {
+          "key": "zone-1",
+          "name": "近郊隔离带",
+          "x": 0.254616,
+          "y": 0.524219
+        },
+        {
+          "key": "zone-2",
+          "name": "侵蚀监测区",
+          "x": 0.575817,
+          "y": 0.632031
+        },
+        {
+          "key": "zone-3",
+          "name": "污染荒原",
+          "x": 0.819602,
+          "y": 0.646484
+        }
+      ]
+    },
+    {
+      "slug": "valkyrie-fortress",
+      "name": "瓦尔肯要塞",
+      "layers": [
+        {
+          "key": "floor-1",
+          "name": "1层",
+          "image": "assets/maps/valkyrie-fortress-terrain.webp",
+          "width": 4096,
+          "height": 1425
+        }
+      ],
+      "zones": [
+        {
+          "key": "zone-3",
+          "name": "冷却区",
+          "x": 0.24966,
+          "y": 0.496094
+        },
+        {
+          "key": "zone-4",
+          "name": "匠人之憩",
+          "x": 0.401155,
+          "y": 0.45166
+        },
+        {
+          "key": "zone-1",
+          "name": "质料区",
+          "x": 0.529382,
+          "y": 0.42041
+        },
+        {
+          "key": "zone-2",
+          "name": "熔炉区",
+          "x": 0.7866,
+          "y": 0.428955
+        }
+      ]
+    },
+    {
+      "slug": "crater-depths",
+      "name": "巨坑底部",
+      "layers": [
+        {
+          "key": "floor-1",
+          "name": "1层",
+          "image": "assets/maps/crater-depths-terrain.webp",
+          "width": 4096,
+          "height": 2410
+        }
+      ],
+      "zones": [
+        {
+          "key": "zone-2",
+          "name": "崩毁残片",
+          "x": 0.844439,
+          "y": 0.300195
+        },
+        {
+          "key": "zone-5",
+          "name": "往日残骸",
+          "x": 0.288488,
+          "y": 0.716016
+        },
+        {
+          "key": "zone-4",
+          "name": "旅途终点",
+          "x": 0.451976,
+          "y": 0.866992
+        },
+        {
+          "key": "zone-1",
+          "name": "耀晶大厦",
+          "x": 0.735639,
+          "y": 0.781641
+        },
+        {
+          "key": "zone-3",
+          "name": "裂隙之疮",
+          "x": 0.867762,
+          "y": 0.806641
+        }
+      ]
+    },
+    {
+      "slug": "newt-base",
+      "name": "纽特基地",
+      "layers": [
+        {
+          "key": "floor-1",
+          "name": "1层",
+          "image": "assets/maps/newt-base-terrain.webp",
+          "width": 4096,
+          "height": 1603
+        }
+      ],
+      "zones": [
+        {
+          "key": "zone-3",
+          "name": "外围塔楼",
+          "x": 0.146315,
+          "y": 0.488498
+        },
+        {
+          "key": "zone-2",
+          "name": "禁区塔楼",
+          "x": 0.415082,
+          "y": 0.450304
+        },
+        {
+          "key": "zone-1",
+          "name": "连通桥廊",
+          "x": 0.732337,
+          "y": 0.369792
+        }
+      ]
+    }
+  ],
+  "world": {
+    "image": "assets/maps/world-sandtable.webp",
+    "width": 1778,
+    "height": 1701,
+    "regions": [
+      {
+        "slug": "valkyrie-fortress",
+        "name": "瓦尔肯要塞",
+        "image": "assets/maps/valkyrie-fortress.webp",
+        "x": 0.7414229471316085,
+        "y": 0.23927101704879483,
+        "width": 0.20219347581552305,
+        "height": 0.18812463256907702
+      },
+      {
+        "slug": "newt-base",
+        "name": "纽特基地",
+        "image": "assets/maps/newt-base.webp",
+        "x": 0.16417322834645676,
+        "y": 0.059318048206937084,
+        "width": 0.17997750281214847,
+        "height": 0.18812463256907702
+      },
+      {
+        "slug": "aurum-fortress",
+        "name": "奥鲁姆要塞",
+        "image": "assets/maps/aurum-fortress.webp",
+        "x": 0.6533745781777277,
+        "y": 0.7501734273956496,
+        "width": 0.25871766029246346,
+        "height": 0.17325690770135213
+      },
+      {
+        "slug": "crater-depths",
+        "name": "巨坑底部",
+        "image": "assets/maps/crater-depths.webp",
+        "x": 0.05667604049493812,
+        "y": 0.4598589065255732,
+        "width": 0.17011248593925757,
+        "height": 0.17022927689594355
+      },
+      {
+        "slug": "inverness-crater",
+        "name": "因弗内斯巨坑",
+        "image": "assets/maps/inverness-crater.webp",
+        "x": 0.5240269966254217,
+        "y": 0.46422398589065256,
+        "width": 0.18029246344206976,
+        "height": 0.1720811287477954
+      }
+    ]
+  }
+}

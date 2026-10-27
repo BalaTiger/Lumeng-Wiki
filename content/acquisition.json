@@ -1,0 +1,3840 @@
+{
+  "articles": {
+    "he-yulian": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "S级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "奥城欢迎签到",
+        "condition": "活动开放并达到对应领取条件后获得。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "frieze": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "S级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "panacea": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "luoxi": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "35",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "lita": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "35",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "mofei": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "daliya": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "beiyi": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "shilin": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "35",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "lilang": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "S级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "ameng": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "S级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "haila": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "S级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "take": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "物资兑换所",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌金通筹",
+            "count": "300",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "aiti": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "mata": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "A级御能者自选",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      }
+    ],
+    "litlisi": [
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      }
+    ],
+    "equipment-001": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷镰刃后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷镰刃",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-002": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷镰刃后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷镰刃",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-003": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷镰刃后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷镰刃",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-004": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷镰刃后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷镰刃",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-005": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃烈核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃烈核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-006": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃烈核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃烈核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-007": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃烈核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃烈核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-008": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃烈核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃烈核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-009": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点焰髓后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点焰髓",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-010": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点焰髓后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点焰髓",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-011": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点焰髓后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点焰髓",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-012": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点焰髓后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点焰髓",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-013": [
+      {
+        "name": "装备制造",
+        "condition": "获得机体芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "机体芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-014": [
+      {
+        "name": "装备制造",
+        "condition": "获得机体芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "机体芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-015": [
+      {
+        "name": "装备制造",
+        "condition": "获得机体芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "机体芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-016": [
+      {
+        "name": "装备制造",
+        "condition": "获得机体芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "机体芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-017": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛细丝后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛细丝",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-018": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛细丝后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛细丝",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-019": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛细丝后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛细丝",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-020": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛细丝后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛细丝",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-021": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-022": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-023": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-024": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-025": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-026": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-027": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-028": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-029": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬雷纹后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬雷纹",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-030": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬雷纹后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬雷纹",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-031": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬雷纹后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬雷纹",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-032": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬雷纹后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬雷纹",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-033": [
+      {
+        "name": "装备制造",
+        "condition": "获得投矛碎片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "投矛碎片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-034": [
+      {
+        "name": "装备制造",
+        "condition": "获得投矛碎片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "投矛碎片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-035": [
+      {
+        "name": "装备制造",
+        "condition": "获得投矛碎片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "投矛碎片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-036": [
+      {
+        "name": "装备制造",
+        "condition": "获得投矛碎片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "投矛碎片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-037": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃刀柄后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃刀柄",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-038": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃刀柄后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃刀柄",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-039": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃刀柄后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃刀柄",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-040": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃刀柄后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃刀柄",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-041": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-042": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-043": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-044": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化芯核后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化芯核",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-045": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-046": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-047": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-048": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动芯片后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动芯片",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-049": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主源晶后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主源晶",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-050": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主源晶后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主源晶",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-051": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主源晶后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主源晶",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-052": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主源晶后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主源晶",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-053": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎刀骨后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎刀骨",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-054": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎刀骨后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎刀骨",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-055": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎刀骨后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎刀骨",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-056": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎刀骨后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎刀骨",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-057": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷残瓣后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷残瓣",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-058": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷残瓣后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷残瓣",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-059": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷残瓣后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷残瓣",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-060": [
+      {
+        "name": "装备制造",
+        "condition": "获得幽蔷残瓣后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "幽蔷残瓣",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-061": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃碎鳞后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃碎鳞",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-062": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃碎鳞后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃碎鳞",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-063": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃碎鳞后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃碎鳞",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-064": [
+      {
+        "name": "装备制造",
+        "condition": "获得赤刃碎鳞后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "赤刃碎鳞",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-065": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点爪锋后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点爪锋",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-066": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点爪锋后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点爪锋",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-067": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点爪锋后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点爪锋",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-068": [
+      {
+        "name": "装备制造",
+        "condition": "获得奇点爪锋后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "奇点爪锋",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-069": [
+      {
+        "name": "装备制造",
+        "condition": "获得散落零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "散落零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-070": [
+      {
+        "name": "装备制造",
+        "condition": "获得散落零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "散落零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-071": [
+      {
+        "name": "装备制造",
+        "condition": "获得散落零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "散落零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-072": [
+      {
+        "name": "装备制造",
+        "condition": "获得散落零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "散落零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-073": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛碎壳后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛碎壳",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-074": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛碎壳后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛碎壳",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-075": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛碎壳后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛碎壳",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-076": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀蛛碎壳后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀蛛碎壳",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-077": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙血后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙血",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-078": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙血后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙血",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-079": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙血后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙血",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-080": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀生龙血后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀生龙血",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-081": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓残盾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓残盾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-082": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓残盾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓残盾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-083": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓残盾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓残盾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-084": [
+      {
+        "name": "装备制造",
+        "condition": "获得烬誓残盾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "烬誓残盾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-085": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬尖尾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬尖尾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-086": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬尖尾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬尖尾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-087": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬尖尾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬尖尾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-088": [
+      {
+        "name": "装备制造",
+        "condition": "获得焚烬尖尾后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "焚烬尖尾",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-089": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀绿羽翼后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀绿羽翼",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-090": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀绿羽翼后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀绿羽翼",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-091": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀绿羽翼后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀绿羽翼",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-092": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀绿羽翼后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀绿羽翼",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-093": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃保养剂后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃保养剂",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-094": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃保养剂后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃保养剂",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-095": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃保养剂后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃保养剂",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-096": [
+      {
+        "name": "装备制造",
+        "condition": "获得逆刃保养剂后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "逆刃保养剂",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-097": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化线路后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化线路",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-098": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化线路后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化线路",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-099": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化线路后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化线路",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-100": [
+      {
+        "name": "装备制造",
+        "condition": "获得蚀化线路后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "蚀化线路",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-101": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动喷气零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动喷气零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-102": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动喷气零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动喷气零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-103": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动喷气零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动喷气零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-104": [
+      {
+        "name": "装备制造",
+        "condition": "获得暴动喷气零件后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "暴动喷气零件",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-105": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主鳍膜后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主鳍膜",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-106": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主鳍膜后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主鳍膜",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-107": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主鳍膜后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主鳍膜",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-108": [
+      {
+        "name": "装备制造",
+        "condition": "获得君主鳍膜后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "君主鳍膜",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-109": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎碎甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎碎甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-110": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎碎甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎碎甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-111": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎碎甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎碎甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-112": [
+      {
+        "name": "装备制造",
+        "condition": "获得追猎碎甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "30000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "追猎碎甲",
+            "count": "4",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-113": [
+      {
+        "name": "装备制造",
+        "condition": "获得完整的腺体后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "完整的腺体",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-114": [
+      {
+        "name": "装备制造",
+        "condition": "获得完整的腺体后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "完整的腺体",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-115": [
+      {
+        "name": "装备制造",
+        "condition": "获得完整的腺体后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "完整的腺体",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-116": [
+      {
+        "name": "装备制造",
+        "condition": "获得完整的腺体后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "完整的腺体",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-117": [
+      {
+        "name": "装备制造",
+        "condition": "获得二型催化素后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "二型催化素",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-118": [
+      {
+        "name": "装备制造",
+        "condition": "获得二型催化素后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "二型催化素",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-119": [
+      {
+        "name": "装备制造",
+        "condition": "获得二型催化素后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "二型催化素",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-120": [
+      {
+        "name": "装备制造",
+        "condition": "获得二型催化素后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "二型催化素",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-121": [
+      {
+        "name": "装备制造",
+        "condition": "获得结实的蚀甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "结实的蚀甲",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-122": [
+      {
+        "name": "装备制造",
+        "condition": "获得结实的蚀甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "结实的蚀甲",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-123": [
+      {
+        "name": "装备制造",
+        "condition": "获得结实的蚀甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "结实的蚀甲",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "equipment-124": [
+      {
+        "name": "装备制造",
+        "condition": "获得结实的蚀甲后解锁配方。",
+        "costs": [
+          {
+            "name": "信用点",
+            "count": "1000",
+            "href": "article/credit-points/"
+          },
+          {
+            "name": "结实的蚀甲",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      }
+    ],
+    "credit-points": [
+      {
+        "name": "今日要务",
+        "condition": "对应功能解锁后可前往。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "材料兑换",
+        "condition": "对应功能解锁后可前往。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-128": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "25",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "校准数据商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "精英币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "50",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "数据自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "校准数据支援箱",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "权限自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "S级自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-130": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "25",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "校准数据商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "精英币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "50",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "数据自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "校准数据支援箱",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "权限自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "S级自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-132": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "物资兑换所",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌金通筹",
+            "count": "50",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-134": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-136": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-138": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-141": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-144": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "25",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "校准数据商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "精英币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "50",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "数据自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "校准数据支援箱",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "权限自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "S级自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-146": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "25",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "校准数据商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "精英币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "50",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "数据自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "校准数据支援箱",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "权限自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "S级自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "item-148": [
+      {
+        "name": "御能者招募",
+        "condition": "刻录开放期间可获取；规则与概率见档案。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "涌砂兑换",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "涌砂",
+            "count": "25",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "校准数据商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "精英币",
+            "count": "10",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "作战合约商店",
+        "condition": "商店开放、商品在售且未达到购买上限时可兑换。",
+        "costs": [
+          {
+            "name": "作战徽币",
+            "count": "50",
+            "href": null
+          }
+        ],
+        "href": null
+      },
+      {
+        "name": "通用数据专项",
+        "condition": "解锁对应入口后完成挑战。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "数据自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "校准数据支援箱",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "权限自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      },
+      {
+        "name": "S级自选补给",
+        "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "injector-01": [
+      {
+        "name": "主线任务获取",
+        "condition": "",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "injector-02": [
+      {
+        "name": "第二章主线任务获取",
+        "condition": "",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "injector-03": [
+      {
+        "name": "活动奖励获取",
+        "condition": "",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "injector-04": [
+      {
+        "name": "第一章支线奖励获取",
+        "condition": "",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "injector-05": [
+      {
+        "name": "第三章地图探索获取",
+        "condition": "",
+        "costs": [],
+        "href": "maps/"
+      }
+    ],
+    "injector-06": [
+      {
+        "name": "第二章支线奖励获取",
+        "condition": "",
+        "costs": [],
+        "href": null
+      }
+    ],
+    "injector-07": [
+      {
+        "name": "第三章地图探索获取",
+        "condition": "",
+        "costs": [],
+        "href": "maps/"
+      }
+    ],
+    "item-129": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【何雨莲】专用，可消耗奇袭型高阶数据在【何雨莲】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/he-yulian/#calibration"
+      }
+    ],
+    "item-131": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【弗莉兹】专用，可消耗技巧型高阶数据在【弗莉兹】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/frieze/#calibration"
+      }
+    ],
+    "item-133": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【潘娜西娅】专用，可消耗策应型低阶数据在【潘娜西娅】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/panacea/#calibration"
+      }
+    ],
+    "item-135": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【洛夕】专用，可消耗闪击型低阶数据在【洛夕】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/luoxi/#calibration"
+      }
+    ],
+    "item-137": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【莉塔】专用，可消耗猛击型低阶数据在【莉塔】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/lita/#calibration"
+      }
+    ],
+    "item-139": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【摩菲】专用，可消耗技巧型低阶数据在【摩菲】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/mofei/#calibration"
+      }
+    ],
+    "item-140": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【达里娅】专用，可消耗闪击型低阶数据在【达里娅】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/daliya/#calibration"
+      }
+    ],
+    "item-142": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【贝伊】专用，可消耗奇袭型低阶数据在【贝伊】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/beiyi/#calibration"
+      }
+    ],
+    "item-143": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【诗凛】专用，可消耗技巧型低阶数据在【诗凛】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/shilin/#calibration"
+      }
+    ],
+    "item-145": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【璃琅】专用，可消耗策应型高阶数据在【璃琅】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/lilang/#calibration"
+      }
+    ],
+    "item-147": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【阿萌】专用，可消耗闪击型高阶数据在【阿萌】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/ameng/#calibration"
+      }
+    ],
+    "item-149": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【海拉】专用，可消耗猛击型高阶数据在【海拉】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/haila/#calibration"
+      }
+    ],
+    "item-150": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【塔可】专用，可消耗策应型低阶数据在【塔可】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/take/#calibration"
+      }
+    ],
+    "item-151": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【艾提】专用，可消耗奇袭型低阶数据在【艾提】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/aiti/#calibration"
+      }
+    ],
+    "item-152": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【玛塔】专用，可消耗猛击型低阶数据在【玛塔】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/mata/#calibration"
+      }
+    ],
+    "item-153": [
+      {
+        "name": "数据校准转化",
+        "condition": "此校准数据为【莉特莉丝】专用，可消耗技巧型高阶数据在【莉特莉丝】的数据校准中转化获取，用于提升校准值。",
+        "costs": [],
+        "href": "article/litlisi/#calibration"
+      }
+    ],
+    "brilliant-diamonds": [
+      {
+        "name": "涌晶原髓兑换",
+        "condition": "在游戏内涌钻兑换界面消耗涌晶原髓获得。",
+        "costs": [],
+        "href": "article/primal-crystal/"
+      }
+    ],
+    "primal-crystal": [
+      {
+        "name": "涌晶原髓充值",
+        "condition": "通过游戏内充值商店购买，商品与价格以游戏内显示为准。",
+        "costs": [],
+        "href": null
+      }
+    ]
+  },
+  "outfits": [
+    {
+      "role": "he-yulian",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "he-yulian",
+      "index": 1,
+      "sources": [
+        {
+          "name": "服饰装扮",
+          "condition": "在服饰装扮商店上架时可购买；限购1次。",
+          "costs": [
+            {
+              "name": "涌晶原髓",
+              "count": "680",
+              "href": "article/primal-crystal/"
+            }
+          ],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "frieze",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "panacea",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "luoxi",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "luoxi",
+      "index": 1,
+      "sources": [
+        {
+          "name": "奥城欢迎签到",
+          "condition": "活动开放并满足领取条件时可获得。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "lita",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "mofei",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "daliya",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "beiyi",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "shilin",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "lilang",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "ameng",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "haila",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "take",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "aiti",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "mata",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "litlisi",
+      "index": 0,
+      "sources": [
+        {
+          "name": "初始服饰",
+          "condition": "获得该御能者后可使用。",
+          "costs": [],
+          "href": null
+        }
+      ]
+    },
+    {
+      "role": "litlisi",
+      "index": 1,
+      "sources": [
+        {
+          "name": "服饰装扮",
+          "condition": "在服饰装扮商店上架时可购买；限购1次。",
+          "costs": [
+            {
+              "name": "涌晶原髓",
+              "count": "1280",
+              "href": "article/primal-crystal/"
+            }
+          ],
+          "href": null
+        }
+      ]
+    }
+  ]
+}

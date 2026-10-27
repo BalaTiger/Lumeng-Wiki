@@ -13,7 +13,14 @@
 
 - 刻录：正常详情入口PopupCardDrawRecordView读取gachaDisplays.CheckDes；InventoryItem读取gachaPoolNotices的基础/综合概率。只收御能者招募、新手刻录、千幻万变，按UI显示百分比原样保留三位小数；不把客户端起止时间视为线上开放证据。
 - 注射器：BloodBottleModel正常场景条目、BloodBottleDetail名称/使用次数/等级/图标；BloodBottleBuffHandler按强化等级渲染恢复效果，BloodIBottleLevelUp显示消耗。排除场景专用且无正常道具的记录，不输出恢复公式或技能内部参数。
-- 地图：LargeMapView实际五个地区入口及AreaCell/WorldAreaSideInfo绑定地区名和原生预览图；仅列子区域名称与正常探索条件，不输出坐标、点位、迷雾或开发地区。
+- 地图：LargeMapView 的 WorldMapRoot/五个 AreaCell 作为地区入口；30张原生沙盘切片合成一张背景，热点按 EnterAreaMapBtn 根变换定位。AreaGrid 的 Bg/Room/Detail 合成五张地区底图，基础显示烘焙24个状态控制房间遮罩；正常探索可能解除这些遮罩，不将其认定为永久隐藏内容。公开20个子区域名称及UI位置，不导出原始切片、世界对象坐标或账号探索数据。
 - 装扮：SubSkinView正常名字、说明和预览切换；原生CharacterSkin二维图由SkinItem/PopupCharacterSkinAcquireView同一皮肤标识绑定。默认装扮复用该角色已审核立绘，三套替换装扮使用对应原生图，不以其他角色代替。
 
 角色结果背景集中在src/hero-backgrounds.js按S/A映射。A级使用已裁去标识的用户空场景；S级使用依据固定release的LightRoot_SSR与SR灯光/发光差异进行AI编辑的Wiki背景，并非S级实机截图；未把生成图当作游戏原生资源。
+
+## 限定、获取途径与紧凑角色布局
+
+- PopupCardDrawRecordView.CheckDes 正常规则文案明确永久池非限定、限定S不进入常驻；InventoryItem 绑定 gachaPoolNotices 的可见名单。UP 标记独立，不等同限定。正式实装日期缺证时不填造日期。
+- CommonItemDetail.SetupObtainWaySources 的 JumpType/ItemJumpHelper 过滤决定来源显示；正常制造、活动、兑换、服饰商店与注射器解锁说明另按各自 UI 绑定。仅输出名称、条件、显示消耗和有效站内链接。尚未闭合的四类自选箱获取链不加入公开来源。
+- SkilliconGroup 原生节点位置用于技能环；ElitistV3 的 ElitePointGroupV2.pointsList 与 EliteModel.GetPointData 对应3/6/9阶段、18个显示节点，保留同锚点分段关系。网页不模拟账号培养状态或提交操作。
+- 默认等级取每组已审定等级的最大值，13级等额外上限仍显示对应密录条件，固定1级节点不扩展。装扮选择仅替换详情hero，预览失败回退默认立绘。

@@ -1,0 +1,85 @@
+{
+  "hasLimitedDistinction": true,
+  "characters": [
+    {
+      "slug": "he-yulian",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "frieze",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "panacea",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "luoxi",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "lita",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "mofei",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "daliya",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "beiyi",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "shilin",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "lilang",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "ameng",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "haila",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "take",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "aiti",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "mata",
+      "availability": "非限定",
+      "releasedOn": null
+    },
+    {
+      "slug": "litlisi",
+      "availability": "限定",
+      "releasedOn": null
+    }
+  ]
+}
