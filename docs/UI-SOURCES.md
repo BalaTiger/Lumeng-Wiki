@@ -1,28 +1,26 @@
-# 已审核 UI 字段
+# UI projection sources
 
-客户端基线：2026-10-13 成功构建的生产客户端。精确私有提交、构建日志与字段证据仅保存在忽略的 .audit 中，未复制进公开仓库。后续资源补丁不纳入本次内容。
+All records are pinned to the released-client baseline; exact private commit/build evidence and field-to-code mappings remain in ignored .audit. Configuration presence alone is not treated as normal acquisition or reachability.
 
-## 本次允许清单
+## Character profiles — local review
 
-仅三个资源栏物品：信用点、涌钻、涌晶原髓。
+Three normal story-trial characters have a verified initial-story acceptance chain and a visible team-join name tooltip. The active CharacterViewV3 merges story-trial instances into its list and supports trial overview/skill views. Runtime menu access confirmation remains pending; richer profiles are not approved for deployment.
 
-| 输出字段 | 玩家可见来源 | 查看路径 |
-|---|---|---|
-| 名称 | 物品详情顶部名称 | 背包解锁后 → 顶部资源栏 → 点击资源图标 |
-| 类型 | 物品详情类型标签 | 同上 |
-| 说明 | 物品详情正文 | 同上 |
+Allowed display fields:
+- name: displayed character name.
+- rarity: visually reviewed gold/purple quality marker. No internal numeric value or unproven letter/star label.
+- profession: profession detail title reached from the overview icon.
+- element: overview element icon and its pinned localized element label.
+- style: overview style icon and style-detail title.
+- portrait: exactly three selected game UI head images, mapped through the released image configuration and visually inspected.
+- skills: actual bound positive-level trial nodes, type/group title, level1, display name and plain brief description.15 groups/45 messages.9 dynamic templates excluded, along with raw parameters, formulas and probability text.
 
-背包入口按游戏的新手主线解锁。所选资源栏按钮不依赖玩家余额来显示详情，详情开关在对应发布 UI 中启用。界面文本来自同一固定数据提交的简体中文本地化。仅把文本换行标签转为普通换行；不输出原始富文本、来源编号、账号余额、品质数值、概率或公式。
+PNG delivery copies retain the original IHDR/IDAT/IEND image chunks. Text metadata is removed without changing pixel-bearing IDAT bytes. Individual output hashes are enforced during build.
 
-## 其他内容
+## Currency items
 
-角色页面只列出玩家已拥有角色，不能据完整角色表证明所有角色已经可获得。此次没有导出角色、装备、技能、其他道具或开发资源。也未导出设置中的 release 隐藏项。
+The existing three currency records expose name/type/description from the item-detail UI opened via the backpack resource bar. Ordinary-player factual confirmation supplements released visibility evidence; it is not developer endorsement or agent-run client verification. Currency is an internal item-catalog type.
 
-构建验证闭合字段集合、逐条人工审核的内容摘要和条目清单，拒绝额外字段、额外条目、文本篡改和未经审核的图片。新增条目必须重新审核，不得只修改摘要放行。
+## Excluded
 
-
-## Local character-name revision
-
-Three story-trial character names are projected from the pinned released-client story flow into a visible team-join tooltip. The public data contains only a human slug, displayed name and UI route. Internal identifiers, mission graph, character stats, rarity, skill/equipment fields and acquisition/pool claims are excluded. The active CharacterViewV3 supports story-trial display, but that does not by itself authorize exporting every detail. Equipment/skills/banner indexes currently show collection status only.
-
-The original three-currency release visibility was supplemented by user/player factual confirmation, not developer endorsement or agent-run client verification.
+Raw tables, internal IDs, unreached development records, source maps, dynamic templates, probability/formula/debug values, stats without level/break/equipment conditions, unverified permanent acquisition, cultivation materials, equipment and banner membership are not exported. Skills are part of character pages, not a separate encyclopedia.

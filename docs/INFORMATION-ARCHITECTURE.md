@@ -1,16 +1,11 @@
-# Information architecture review
+# Reference and interaction review
 
-Reviewed 2026-10-27. Retain the existing visual design; prioritize game reference lookup.
+Sources: https://wiki.biligame.com/sr/角色筛选 ; https://wiki.biligame.com/sr/景元 ; https://prts.wiki/w/干员一览 . No third-party prose or artwork was copied.
 
-Reference structure: Star Rail BWIKI homepage separates character/equipment/item indexes and version/warp archives. PRTS sidebar places operator, item and banner indexes prominently and separates new operators from archive navigation. No third-party copy or artwork was reused.
+Actual browser operations: Star Rail rarity+element+profession intersection, clear-all and a separate character detail page; PRTS name search reduced results to3, adding profession reduced to1, adding incompatible rarity reduced to0. Star Rail's filter page was not claimed to provide name search. Reference detail review covered portrait/identity, conditioned stat tables, material links and typed skill sections.
 
-Sources:
-- https://wiki.biligame.com/sr/首页
-- https://prts.wiki/w/MediaWiki:Sidebar
-- https://prts.wiki/w/卡池一览
+Our catalog applies name AND all selected facet groups, with OR inside each group. Actual game facets are quality marker, profession, element and style. Missing facet values stay visible without filters and do not match a selected value. Real portrait cards are complete keyboard-accessible anchors. URL query parameters preserve filters through detail links, explicit return and refresh. Small screens default to collapsed filters and a three-column portrait grid.
 
-Local revision: primary navigation uses character/equipment/skill/item/banner indexes. Homepage leads with three verified story-trial character names, version scope and search. Equipment, skill and banner links resolve to transparent collection-status pages. Currency entries are a distinct subsection, not a complete item encyclopedia. Official introduction/download/artwork articles remain auxiliary.
+Skills are within character pages. The item encyclopedia includes currency as a type; no separate currency/skill sidebar entries. Character details lead with identity/portrait and audited facets, then typed level1 skill briefs, acquisition/related lookup and version evidence. Unsupported stat/material/equipment sections are not fabricated.
 
-No character image, stats, rarity, skill text, equipment fields, pool membership or current banner claim is included. Character names derive only from the pinned release story-trial name toast. Detailed private evidence stays in ignored .audit/.
-
-Static publishing: all18 readable pages are emitted as real directory paths with an HTML body, unique title/description and canonical URL. sitemap.xml lists only these pages. The same safe projection drives static HTML and client search; no second raw data source is introduced. Root-domain robots administration and search-console submissions were not performed.
+The same closed projection generates17 static HTML pages, search data and sitemap. Static real paths, titles/descriptions and canonical URLs are retained. Richer profiles remain local-review only and cannot produce a production build until separately approved.

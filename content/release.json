@@ -1,9 +1,9 @@
 {
   "status": "verified",
-  "version": "公测客户端基线",
+  "version": "正式客户端基线",
   "boundaryDate": "2026-10-13",
   "reviewedOn": "2026-10-27",
-  "scope": "固定客户端版本：收录三名正式剧情试用角色的姓名，以及三种资源货币的名称、类型和说明。角色详细资料、装备、技能与卡池档案尚未收录。",
+  "scope": "固定版本本地审阅：三名正式剧情试用角色的头像、品质标识、职业、属性、风格与已核实的1级技能简述；三种资源货币。未核实的动态模板、属性数值、培养材料、装备与卡池不收录。",
   "allowedFields": [
     "name",
     "type",
@@ -14,13 +14,20 @@
     "brilliant-diamonds",
     "primal-crystal"
   ],
-  "gameDigest": "7673dd6dd475065ff6465215457dc0974f10b2578a65a15dbbd0ad0dafd98fb7",
+  "gameDigest": "ba971b1ecbfd46f33634fd98689e8ae8280afa626dad775e68ed387382ce98b5",
   "reviewedCharacters": [
     "he-yulian",
     "frieze",
     "panacea"
   ],
   "characterFields": [
-    "name"
-  ]
+    "name",
+    "rarity",
+    "profession",
+    "element",
+    "style",
+    "portrait",
+    "skills"
+  ],
+  "publicationReview": "local-review"
 }
