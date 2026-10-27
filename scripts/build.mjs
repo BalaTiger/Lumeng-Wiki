@@ -81,11 +81,17 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  validate(publicData,release,game,gameBytes);requirePublishable(release,preview,game.characters);
  const collectionBytes=fs.readFileSync(path.join(root,'content/collections.json'));if(digest(collectionBytes)!=='3fb3f92a3a91bc1dcc6f1dd5112e2c266e411cee184f7eda7ef82c75c561d895')throw Error('Unreviewed collection content');const collections=JSON.parse(collectionBytes).records;
  const acquisitionBytes=fs.readFileSync(path.join(root,'content/acquisition.json'));if(digest(acquisitionBytes)!=='3c6fa63be30fd6180217ab7d8efc2213d8745998dabb0ab36556e3ebdcbf93ab')throw Error('Unreviewed acquisition content');const acquisition=JSON.parse(acquisitionBytes);
- const atlasBytes=fs.readFileSync(path.join(root,'content/map-atlas.json'));if(digest(atlasBytes)!=='fd84f61aec7bae17e1100646d89a5e14328bd53c10e9054f95366d710466d904')throw Error('Unreviewed map atlas');const mapAtlas=JSON.parse(atlasBytes);
+ const atlasBytes=fs.readFileSync(path.join(root,'content/map-atlas.json'));if(digest(atlasBytes)!=='cdd3ede1f1a607e411432d3ab421cc83bc740be5f374b68572e0b849b79e8ecc')throw Error('Unreviewed map atlas');const mapAtlas=JSON.parse(atlasBytes);
  const publicationBytes=fs.readFileSync(path.join(root,'content/character-publication.json'));if(digest(publicationBytes)!=='b258e26cbde3da72e1336be22f1d0c56696185bb1f627afd87282b1637424630')throw Error('Unreviewed character publication facts');const publication=JSON.parse(publicationBytes),publicationBySlug=new Map(publication.characters.map(c=>[c.slug,c]));
  const extraBytes=fs.readFileSync(path.join(root,'content/extra.json'));if(digest(extraBytes)!=='8af9bf71678c840103d88cc150e3dea8d6fa3c529d45c9089882bfb3835d5f83')throw Error('Unreviewed extra UI content');const extra=JSON.parse(extraBytes);
  const approvedAssets={
-"maps/world-sandtable.webp":"763cc9ca895688ac908404ad89c53e8d8a0a0b8c28b29efd84e7c4945faa9ef1",
+"maps/sandtable-effect-words2.webp":"3ebaf641fee7f6cab64762f10b3b3dda3f972865eed198e47a842b79bdc991ea",
+"maps/sandtable-effect-words.webp":"e02b8c2c3e9900609033646e1d713ef3d26b87f990c78ea37a6738c49821a8b2",
+"maps/sandtable-point-hover.webp":"cfdd4cd31803bd6666930c5eb6c4f0cd7abe809625a4156c5ffe0ce869487527",
+"maps/sandtable-point.webp":"042f03da363052bf24b3bc04964886417d2205d25be2745e5182a11a52bd8aa0",
+"maps/sandtable-nameplate-hover.webp":"cac2f71d73d574ca196a65df51115f9d9b722ab063012976ad11c70037396b25",
+"maps/sandtable-nameplate.webp":"17d7385cb55ca1a423f54c4757458593edcebe71fc5006f013bed39d03ec71ad",
+"maps/world-sandtable.webp":"b42e61c7f84227fd941fa9a246d75def41227746f6e12eff9ea44ec4a318ba5d",
 "banners/permanent-recruitment.webp":"d8f5ee58935a2cf8c456040c8bb9721a9d05b5584ad295efb4376ffd88fca1a6",
 "banners/beginner-recording.webp":"fea031a2c6c56d02c93ab03d9e183de317bb5068f236571e5d1394c8b418023c",
 "banners/thousand-transformations.webp":"0aa83b13627aee2614e9114caea4f0c915ab9354164615dd459a1d8127a409c4",

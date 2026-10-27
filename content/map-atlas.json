@@ -198,53 +198,96 @@
   ],
   "world": {
     "image": "assets/maps/world-sandtable.webp",
-    "width": 1778,
-    "height": 1701,
+    "width": 5120,
+    "height": 3072,
+    "referenceMode": "terrain",
+    "nativeScale": {
+      "min": 0.5,
+      "max": 1,
+      "default": 0.8
+    },
     "regions": [
       {
-        "slug": "valkyrie-fortress",
-        "name": "瓦尔肯要塞",
-        "image": "assets/maps/valkyrie-fortress.webp",
-        "x": 0.7414229471316085,
-        "y": 0.23927101704879483,
-        "width": 0.20219347581552305,
-        "height": 0.18812463256907702
+        "slug": "aurum-fortress",
+        "name": "奥鲁姆要塞",
+        "x": 0.585546875,
+        "y": 0.6751302083333334,
+        "width": 0.10234375,
+        "height": 0.10286458333333333,
+        "left": 0.4944609375,
+        "top": 0.658671875
       },
       {
         "slug": "newt-base",
         "name": "纽特基地",
-        "image": "assets/maps/newt-base.webp",
-        "x": 0.16417322834645676,
-        "y": 0.059318048206937084,
-        "width": 0.17997750281214847,
-        "height": 0.18812463256907702
-      },
-      {
-        "slug": "aurum-fortress",
-        "name": "奥鲁姆要塞",
-        "image": "assets/maps/aurum-fortress.webp",
-        "x": 0.6533745781777277,
-        "y": 0.7501734273956496,
-        "width": 0.25871766029246346,
-        "height": 0.17325690770135213
-      },
-      {
-        "slug": "crater-depths",
-        "name": "巨坑底部",
-        "image": "assets/maps/crater-depths.webp",
-        "x": 0.05667604049493812,
-        "y": 0.4598589065255732,
-        "width": 0.17011248593925757,
-        "height": 0.17022927689594355
+        "x": 0.425390625,
+        "y": 0.22786458333333334,
+        "width": 0.075,
+        "height": 0.10026041666666667,
+        "left": 0.352640625,
+        "top": 0.20580729166666667
       },
       {
         "slug": "inverness-crater",
         "name": "因弗内斯巨坑",
-        "image": "assets/maps/inverness-crater.webp",
-        "x": 0.5240269966254217,
-        "y": 0.46422398589065256,
-        "width": 0.18029246344206976,
-        "height": 0.1720811287477954
+        "x": 0.5327310566406249,
+        "y": 0.4481507356770833,
+        "width": 0.0421875,
+        "height": 0.09635416666666667,
+        "left": 0.491809181640625,
+        "top": 0.42598927734375
+      },
+      {
+        "slug": "valkyrie-fortress",
+        "name": "瓦尔肯要塞",
+        "x": 0.614520625,
+        "y": 0.32624783203125,
+        "width": 0.07421875,
+        "height": 0.10416666666666667,
+        "left": 0.564051875,
+        "top": 0.30541449869791665
+      },
+      {
+        "slug": "crater-depths",
+        "name": "巨坑底部",
+        "x": 0.3453125,
+        "y": 0.4342447916666667,
+        "width": 0.0625,
+        "height": 0.08854166666666667,
+        "left": 0.2965625,
+        "top": 0.433359375
+      }
+    ],
+    "ui": {
+      "nameplate": "assets/maps/sandtable-nameplate.webp",
+      "nameplateHover": "assets/maps/sandtable-nameplate-hover.webp",
+      "point": "assets/maps/sandtable-point.webp",
+      "pointHover": "assets/maps/sandtable-point-hover.webp"
+    },
+    "decorations": [
+      {
+        "image": "assets/maps/sandtable-effect-words.webp",
+        "x": 0.408203125,
+        "y": 0.5653021442495126,
+        "width": 0.05546875,
+        "height": 0.09226770630279402,
+        "opacity": 0.29803923
+      },
+      {
+        "image": "assets/maps/sandtable-effect-words.webp",
+        "x": 0.311328125,
+        "y": 0.3830409356725146,
+        "width": 0.05546875,
+        "height": 0.09226770630279402,
+        "opacity": 0.69803923
+      },
+      {
+        "image": "assets/maps/sandtable-effect-words2.webp",
+        "x": 0.596875,
+        "y": 0.32098765432098764,
+        "width": 0.05546875,
+        "height": 0.09226770630279402,
+        "opacity": 0.6
       }
     ]
   }
