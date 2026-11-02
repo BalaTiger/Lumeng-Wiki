@@ -24,3 +24,5 @@ src/assets下按characters/illustrations、characters/portraits、badges、skill
 - content/acquisition.json 保存玩家界面显示的获取途径投影，覆盖16角色、124装备部件、29道具、7注射器和19装扮。未能证明可正常获得的自选箱来源不公开。
 - content/character-publication.json 区分限定/非限定及已证实装日期。未知日期为 null，不用资源提交时间替代；首页最多3个合格S，最多1个有证更新的A替换位，始终保留最新S。目前只确认莉特莉丝为限定S，不存在日期排序歧义。
 - 角色等级默认各项实际最大值、选项倒序。attribute、skill-N、skill、anchor、outfit 查询参数保存显式选择，页签、刷新与返回保留状态。技能环与18个校准节点位置来自固定版本正常 UI。
+
+地图现收录380处宝藏、449处采集物、75处任务/服务NPC、36处时空裂隙和149处独立挑战入口。另有56处传输节点和13处监测塔，总计1158个参考点。支持NPC姓名搜索、11项平级分类、可探索通道开关及地图内重叠点位选择。

@@ -79,12 +79,57 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const release=JSON.parse(fs.readFileSync(path.join(root,'content/release.json'),'utf8'));
  const gameBytes=fs.readFileSync(path.join(root,'content/game.json')),game=JSON.parse(gameBytes);
  validate(publicData,release,game,gameBytes);requirePublishable(release,preview,game.characters);
- const collectionBytes=fs.readFileSync(path.join(root,'content/collections.json'));if(digest(collectionBytes)!=='3fb3f92a3a91bc1dcc6f1dd5112e2c266e411cee184f7eda7ef82c75c561d895')throw Error('Unreviewed collection content');const collections=JSON.parse(collectionBytes).records;
- const acquisitionBytes=fs.readFileSync(path.join(root,'content/acquisition.json'));if(digest(acquisitionBytes)!=='3c6fa63be30fd6180217ab7d8efc2213d8745998dabb0ab36556e3ebdcbf93ab')throw Error('Unreviewed acquisition content');const acquisition=JSON.parse(acquisitionBytes);
- const atlasBytes=fs.readFileSync(path.join(root,'content/map-atlas.json'));if(digest(atlasBytes)!=='40f0389a8fcf1f5f857841c0b93111ea0f54d78484f1996d1dfa88a08c3b112c')throw Error('Unreviewed map atlas');const mapAtlas=JSON.parse(atlasBytes);
+ const collectionBytes=fs.readFileSync(path.join(root,'content/collections.json'));if(digest(collectionBytes)!=='0b2c9f22556aeef2a14d9535bbea7547af3101bd8611b1d9e7c49a2794e7e061')throw Error('Unreviewed collection content');const collections=JSON.parse(collectionBytes).records;
+ const acquisitionBytes=fs.readFileSync(path.join(root,'content/acquisition.json'));if(digest(acquisitionBytes)!=='10dd4962b62713743cb000acb7de654507de709cfb76952b6096c3b7594d7d31')throw Error('Unreviewed acquisition content');const acquisition=JSON.parse(acquisitionBytes);
+ const atlasBytes=fs.readFileSync(path.join(root,'content/map-atlas.json'));if(digest(atlasBytes)!=='0e16ce51d3f00baa502bbbd68f019657443531d15978c6f5eab2023d4f0894c1')throw Error('Unreviewed map atlas');const mapAtlas=JSON.parse(atlasBytes);
  const publicationBytes=fs.readFileSync(path.join(root,'content/character-publication.json'));if(digest(publicationBytes)!=='b258e26cbde3da72e1336be22f1d0c56696185bb1f627afd87282b1637424630')throw Error('Unreviewed character publication facts');const publication=JSON.parse(publicationBytes),publicationBySlug=new Map(publication.characters.map(c=>[c.slug,c]));
  const extraBytes=fs.readFileSync(path.join(root,'content/extra.json'));if(digest(extraBytes)!=='8af9bf71678c840103d88cc150e3dea8d6fa3c529d45c9089882bfb3835d5f83')throw Error('Unreviewed extra UI content');const extra=JSON.parse(extraBytes);
  const approvedAssets={
+"collections/source-material-36.webp":"0af60c51ebb1fdbb3c002bb28829792cecec387479435a965887528a4e2c227b",
+"collections/source-material-01.webp":"9e4b95bd6e28651a5d5b5038fe281b8f6686de5bb44962a729c21803111a0c12",
+"collections/source-material-02.webp":"c4e2487d7ea73ea99458ab993690c8e3ce7f5c972af9d40f99fdbe65cdada296",
+"collections/source-material-03.webp":"dd03eb29f2e0a9aef7dfb3dd206471bae855d3903e64ead12b5e5a9c84f26a98",
+"collections/source-material-04.webp":"995338b67c9ece4a5481429fc2c2d394761a881206822ffe7c66dfb1eb5f8c52",
+"collections/source-material-05.webp":"1c034869e09650cf18319d38ef4106900a5e936ddfa8224ea201c5e1bbbf16b8",
+"collections/source-material-06.webp":"43240b313bc783752e6d1fda1fcd27f8fa20ca4321afe3a0462152f27ba8b9db",
+"collections/source-material-07.webp":"d2c2655b515d379d0084c5dd9557bd412fbed51377e14565dd730d371660a670",
+"collections/source-material-08.webp":"a2fa69be6ccffb2b4c363216a16a95620437a5fd2607906551c0b98fda59beca",
+"collections/source-material-09.webp":"5fa8bfaa66a2333e28ce2968649ea070a32300128a1982c1a2b8ff9b81d9dbb4",
+"collections/source-material-10.webp":"4aed028e6b3e71f08adbd596561c5acd150e80b09b415ab2ee4b52efa5069c7a",
+"collections/source-material-11.webp":"5ef5fc6fb729c993e910a7e3aa85e21d5b247fe4b54d34984fe0dc4ec112f3b1",
+"collections/source-material-12.webp":"424660141ff677d3ed1f4fa5da6843a7333ceed75ac86d16f834d693ee72b62d",
+"collections/source-material-13.webp":"2e9607b5dbbd7969ba0f68be22f645cc7198c8abd2c1682356a86fdc1d55da6c",
+"collections/source-material-14.webp":"b3c0113efefdb8f90e24b5ee2dfcd932bed05a9765d3589f783b7c39aa2dabf4",
+"collections/source-material-15.webp":"a6d47bb667fa248362547a389c6133ab7f2f4105121d90adfee4a008b510ea2d",
+"collections/source-material-16.webp":"30fe46d7ffdde5e2111f1553c7c76dc771bc51b5deb3257ff5d10560c2c11aaf",
+"collections/source-material-17.webp":"75ec45201da65a72bf0ab481179a77deceb1c76b6087ba9b1dea8737dffa3d10",
+"collections/source-material-18.webp":"c4c31a98d96c55add0d3fdcfb5000551dc4439d96282244cef1c80062a0fac8d",
+"collections/source-material-19.webp":"bad4c4ebac42eb34c9d5d7e39ee9d3caf59950abfc454eb3abb3199256885cfe",
+"collections/source-material-20.webp":"4d5faae10217ff50a2ff691fd56e044458f662ab667171dc89bbf42adcdcb901",
+"collections/source-material-21.webp":"283c382a149932b831e306b4dd2740ee54ca011f617af72b7da087ce47ba859f",
+"collections/source-material-22.webp":"ba046079a7ec9ae12e8911676dd1b6587a5c9f02f32039f6045e463b262556e4",
+"collections/source-material-23.webp":"4473edee4705833d429e19dbea815622214a665d771e9dc35c58cd3a5a8e7016",
+"collections/source-material-24.webp":"a9e56afa8989ad8c18ec8618740068c096720b01e57bda832a4c6bf1489a8afd",
+"collections/source-material-25.webp":"c83ca1626a4d93a83620e757209326f107566e30eb54d33c0ca5f658cb076e32",
+"collections/source-material-26.webp":"711d3192b29872afe44781f48aaf4a27c5170b4dc2431c120f0c4bc974c5207a",
+"collections/source-material-27.webp":"787a45941341517678fb3477ee4e5d8bdd1ad0dc0a085136f62312d1579a0a7f",
+"collections/source-material-28.webp":"c0fa7077c25fe97b4543d5d5177fb30b33f2ec7f1385a8a040c97e80dc6298e6",
+"collections/source-material-29.webp":"b9fb0195590bea7806a34e09168d694962a51a2bb96ff5ecfed1bc1ede4460b4",
+"collections/source-material-30.webp":"f210865baf8af1c5176ed96e347ff8f37a2ded6f25841a6658575f03be06de97",
+"collections/source-material-31.webp":"6b0ecfa5632fdf754f1a5703871e22d9c701f6ccb9a23849f0040f6b3f962550",
+"collections/source-material-32.webp":"bca1c71876713384558513337159ffd1bbf5a7a1282b6ab4e1e868dce1f15c99",
+"collections/source-material-33.webp":"589e91fe020ee1985b1a478b63371d21d19a317949a8d95109476b98dad58729",
+"collections/source-material-34.webp":"1875180e015d876f5238ca629404dfdf1515ce62593075d779bf6377b85b0956",
+"collections/source-material-35.webp":"def0825992c3e4c54c5018138e709b01617f9c9615aef422baa1d45c184c4822",
+"collections/stabilizer-type-one.webp":"1ccf016449eccce42ca2cf65a759f7c9454450b85727783e97ceb9e25ce21242",
+"collections/stabilizer-type-i.webp":"44c81a31f667374d33e020237eaee19312cc09777acdea45fa7364663f18a497",
+"maps/marker-beacon.webp":"d33af7f6cc53ae914d00948566cc550413a6f709f04a857225fdc3386c3bac09",
+"maps/marker-rest.webp":"8b4447aaa1d87f55e6d96501466d2eae80c5130ba3d0f4969aaaad525abd3630",
+"maps/marker-challenge-cocoon.svg":"ee3996e3aeaef27e2cc9b17241567273c909cfda28a37485ab646132893d2406",
+"maps/marker-challenge-race.svg":"91782cce948307a415e94c6b845f7402d44f66df4c0f7e5a8daec99d80844a9f",
+"maps/marker-challenge-battle.svg":"35f6b31a475d0bf3a9dbb948c2fcf46804896529bca7930a04de5672d2ed407d",
+"maps/marker-challenge-barrier.svg":"3c10fbc024c06e70b2c49a6d60119f42983a84cbe9781061b5f9dd9cca62f36d",
+"maps/marker-challenge-targets.svg":"d8042c8d565295f9d91c2d9a35bf750d2c49254477f099c463bbe821adcbd298",
 "maps/marker-treasure.webp":"b1e3ca9e5b969ccebad05a2307c169f5b3743c11523578c94ee122690e99f921",
 "maps/marker-collection.webp":"e0e7adbcf753400d236dca606ab4fcf3b06be87b1aecc997e5737c536128d9c0",
 "maps/marker-rift.webp":"0da767dd81f55e337807094550e34dc81e18dd3b0e450c552618b76d9311c762",
