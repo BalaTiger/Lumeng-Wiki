@@ -61,3 +61,9 @@
 装备强化表加入当前级升下一级的熔锻晶体消耗：固定版EquipLevelUpView以目标xpItem.count减当前xpItem.count显示消耗，TableRule.GetLevelMaterialId按装备space与等级选表；满级无后续升级，显示破折号。移除培养与装备条件区块。
 
 装备详情：表头与标题明确强化等级、固定属性和逐级熔锻晶体消耗；装备特性按原生EquipFeatureTab图标/名称/等级绑定标注，幻舞与专注均属特性，不推定套装属性。正常制造与获取消耗预览补充36个引用道具，仅导出名称、类型、品质、说明、图标及已证明的获取入口。获取途径条件内道具引用和消耗均链接到现有道具详情。
+
+任务一览：任务组为目录单位、任务步骤为关系节点。当前投影55组508节点；入口锚定已公开正式地图NPC任务、注射器精确奖励及明确前置闭包。TaskListComponentV3过滤无效/隐藏任务；MissionConfig从mainmissionDatas取类型、从missionRGroups取奖励；TaskPanel只预览collections.Certain。页签采用TaskPanel.prefab的本地化页签：主线、支线、引导、同行。仅导出玩家标题/正文/地点、明确任务完成前置与NextMission链接、确定奖励名称数量及精确站内引用；不导出条件脚本或内部ID。未闭合关系不补造，非完整全游戏任务表。
+
+任务复核：使用1.0.0_dev远端精确版本仅核对状态，不从dev新增正文；剔除1个已禁用节点，保留55组508节点。地点改按实际TaskPanel地图/子区域名称绑定，不使用遗留placeDesc字段。未证明正式可达的NPC相关字段暂不进入投影，原文与逐页结论保留私有记录。背景无损WebP与原PNG解码像素逐字节一致，恢复原40MiB预算，不重复打包PNG。卡池单项值仅依固定前端公示文案与唯一规则计算，内部权重不参与公开值。
+
+任务节点地图位置来自固定release正常指引：EnterAreaCondition.OnTracing的显示位置、NPCMissionPoint的静态唯一NPC位置、节点AcceptAction的AddMissionMarkAction。复用已核对地图投影；不采用触发碰撞体偏移、不推断动态NPC路线，不导出原始世界坐标/内部标识。NPC提交条件按TableRule/NpcDataConfig的地区映射解析。遮挡位置遵守眼睛开关，任务标记与地图元素数量独立；任务直达不改变用户偏好。来源与排除原因保留于忽略目录。

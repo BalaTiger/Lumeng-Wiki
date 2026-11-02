@@ -79,12 +79,17 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const release=JSON.parse(fs.readFileSync(path.join(root,'content/release.json'),'utf8'));
  const gameBytes=fs.readFileSync(path.join(root,'content/game.json')),game=JSON.parse(gameBytes);
  validate(publicData,release,game,gameBytes);requirePublishable(release,preview,game.characters);
- const collectionBytes=fs.readFileSync(path.join(root,'content/collections.json'));if(digest(collectionBytes)!=='0b2c9f22556aeef2a14d9535bbea7547af3101bd8611b1d9e7c49a2794e7e061')throw Error('Unreviewed collection content');const collections=JSON.parse(collectionBytes).records;
- const acquisitionBytes=fs.readFileSync(path.join(root,'content/acquisition.json'));if(digest(acquisitionBytes)!=='10dd4962b62713743cb000acb7de654507de709cfb76952b6096c3b7594d7d31')throw Error('Unreviewed acquisition content');const acquisition=JSON.parse(acquisitionBytes);
+ const collectionBytes=fs.readFileSync(path.join(root,'content/collections.json'));if(digest(collectionBytes)!=='813b5ee9bf265183f828ba553920f983a7b584d944db2a6b0b4a13d3104ff513')throw Error('Unreviewed collection content');const collections=JSON.parse(collectionBytes).records;
+ const acquisitionBytes=fs.readFileSync(path.join(root,'content/acquisition.json'));if(digest(acquisitionBytes)!=='9bed149a0ef97ddf0a64ba48d294ee7d6d0c3cd3764597a6e07ea00b8a10cc26')throw Error('Unreviewed acquisition content');const acquisition=JSON.parse(acquisitionBytes);
  const atlasBytes=fs.readFileSync(path.join(root,'content/map-atlas.json'));if(digest(atlasBytes)!=='0e16ce51d3f00baa502bbbd68f019657443531d15978c6f5eab2023d4f0894c1')throw Error('Unreviewed map atlas');const mapAtlas=JSON.parse(atlasBytes);
  const publicationBytes=fs.readFileSync(path.join(root,'content/character-publication.json'));if(digest(publicationBytes)!=='b258e26cbde3da72e1336be22f1d0c56696185bb1f627afd87282b1637424630')throw Error('Unreviewed character publication facts');const publication=JSON.parse(publicationBytes),publicationBySlug=new Map(publication.characters.map(c=>[c.slug,c]));
  const extraBytes=fs.readFileSync(path.join(root,'content/extra.json'));if(digest(extraBytes)!=='8af9bf71678c840103d88cc150e3dea8d6fa3c529d45c9089882bfb3835d5f83')throw Error('Unreviewed extra UI content');const extra=JSON.parse(extraBytes);
+ const tasksBytes=fs.readFileSync(path.join(root,'content/tasks.json'));if(digest(tasksBytes)!=='a163dce0b896d4034aa34e519cd8a5692412471fe8d001501dda32892b16895e')throw Error('Unreviewed task content');const tasks=JSON.parse(tasksBytes);
+ const inventoryBytes=fs.readFileSync(path.join(root,'content/banner-inventory.json'));if(digest(inventoryBytes)!=='fe8b799647cdeaf578307be8eb68cce3e0ee1d0ad2d28910f127f3a975dedc8a')throw Error('Unreviewed banner inventory');const inventory=JSON.parse(inventoryBytes);for(const banner of extra.banners)banner.inventory=inventory[banner.slug];
  const approvedAssets={
+"collections/skill-training-data.webp":"344a2e004b72ec716a7b15580f7df814f8d7d0d05709e06fcc0ec3c32206c1a2",
+"collections/forging-crystal.webp":"877aca39ee71038127def60bfbe1b9a4a233fa65a2f4ea09d24e54f3ddd69554",
+"collections/combat-experience.webp":"e301ece48d02d9dcae7ed8da0e97613bf5f274bbf9cee592fb6bc8ebf70de022",
 "collections/source-material-36.webp":"0af60c51ebb1fdbb3c002bb28829792cecec387479435a965887528a4e2c227b",
 "collections/source-material-01.webp":"9e4b95bd6e28651a5d5b5038fe281b8f6686de5bb44962a729c21803111a0c12",
 "collections/source-material-02.webp":"c4e2487d7ea73ea99458ab993690c8e3ce7f5c972af9d40f99fdbe65cdada296",
@@ -252,66 +257,9 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
 "collections/equipment-054.png":"854a1a6ab45f6a6eb71c83e66d36d3bd70617138d16f27cc11e361592a7488b8",
 "collections/equipment-055.png":"f4d9ab63184f2a098c12fded286d3e1aeb8021f16769c1d9aa5e220507721170",
 "collections/equipment-056.png":"9922c7a8c8d116948f4db96f79b0c264c5aabb63f99da33d48a7b152b7942dc2",
-"collections/equipment-057.png":"20838194064f760dc4d660ad3c85c6b93e74f08ef4382493bdcf44e0aac34a3a",
-"collections/equipment-058.png":"76f53fa07e34b6628e12b76bf1148e1636bba32d364dc93f2edd2e5645915c85",
-"collections/equipment-059.png":"850e278f5bc226dc3fb8897333ee3b7d84427eb5ae7b83269c637f373a3a73c6",
-"collections/equipment-060.png":"785d07d75ed06ca3a7f66a654244d60e3d9183242e66dafa6c2a1518a5fbce32",
-"collections/equipment-061.png":"6122f29a3b66ae7769a0386a88385da43281e4a0d278351b5175c70adfaa9e75",
-"collections/equipment-062.png":"3cbf8759e04723ef786008707603a686cdcb57782918b5315687a7580f26901c",
-"collections/equipment-063.png":"599645cf851008e637f31e1bf30d5b3f5cba11da25cf50f216c76a670bfa1261",
-"collections/equipment-064.png":"62667083e41af533b66e49e7e3b63da0fd377afe056d48ebb016f7814b19c58d",
-"collections/equipment-065.png":"878bb354d689d875b819fab24d406d22d68746068ff5cc7d1d8ba4b128b543e7",
-"collections/equipment-066.png":"0f4397d8f7efc9fd8b766fc9ca4d44d795c2b91300aa8fda3cfb16a89d39944f",
-"collections/equipment-067.png":"b5c134bf0fb3f37d291e74d937be0501b74763cf57bd8288fb9909c2ede0806a",
-"collections/equipment-068.png":"82cb636fb58d56f00a30142960c7d6b339b174043243cdfc5de8ce7882b73ec1",
-"collections/equipment-069.png":"9b548892080fad3e19d260a27be4ff3a8875930c890d597486bc0ddfe3b6197f",
-"collections/equipment-070.png":"e0fb037cd071d387e1b52ea687c71c561842ba9f74f0d4b8c48b8cbbf9c84de8",
-"collections/equipment-071.png":"b4bce0bf6ac88ecbdd5788ad8b67504c6953c36226c95d6739352249bb52f4ca",
-"collections/equipment-072.png":"a8c7091bb33b93a79a6ae25a266d8cfbc78b0c7dcce0512668c2f1ee3fa50c94",
-"collections/equipment-073.png":"f80174ab6be1ed5448c9fe77084b1c98da78d8030825e04ba75e146c259784bb",
-"collections/equipment-074.png":"522a773f282a5ebc7a75fc0e177ccc1a5b682d95bcd955ad43a8275e7713b9fd",
-"collections/equipment-075.png":"c531811127230e6f872154fa807ba279caf36eb09c610328e285259ee21e914d",
-"collections/equipment-076.png":"4fea46c604aaa48c01f1237cbd0a047a6db6fd6e4e41c87b184bce3c09c0039d",
-"collections/equipment-077.png":"784223d4524829ead7779cae933eb4771ebe411e7fdea6604509e5644d00b6d2",
-"collections/equipment-078.png":"3138f3a4470f067db93d609c2736a784e4111f627447839dee7194064ff5017e",
-"collections/equipment-079.png":"8c15ee4daec4c55570880be08fc6806ff2f6c64b3ba02b781474bd3796995923",
-"collections/equipment-080.png":"29dfb36255fd70a3a6ab93c27f217228a2acd6810e5562c34b91f8a1c324a422",
-"collections/equipment-081.png":"dc4c415c49419ecf69982633798474f3c9e164a24ebb8c78b652bbd413fae40d",
-"collections/equipment-082.png":"416da70b3f7a448738225d8e727cdfebdd5cd96f578bc8a77a35174049b19cec",
-"collections/equipment-083.png":"9a933ff8ea15078dd666b06b9866c016956bf845daa6406a6f707e8282bb0bc7",
-"collections/equipment-084.png":"d4a52a0b3b4de3475bcf6cd58fd6e393ca49f08481078d2535edf06830c5b7a7",
-"collections/equipment-085.png":"5097151c0716c32224f2202df279c4c5427117cc44458da3429597297b31741a",
-"collections/equipment-086.png":"56be35d29eb98587ccdb297fa75b7d287f871c7c2cdfa9b0439fd212e5171901",
-"collections/equipment-087.png":"ec69e8d42622b79649ee00faebcefd8e2cdb70fb30c39253e920ee4b87d233d0",
-"collections/equipment-088.png":"32d72d2628188b87af830d29cf4c76f87d0f4c74e0a868ba2eed8baf8a89730d",
-"collections/equipment-089.png":"9b566f610820a687bd23532c9b223a1e252c12772d34d30fdc9afd952caa04d5",
-"collections/equipment-090.png":"df98ef8186c146dc0cea3b3544287412b224a47cc08323a6f67f67b749a3f6d0",
-"collections/equipment-091.png":"82b6e735cd1f49120c6466532e285f1f075a09f7ec84220389ef51bd1a255702",
-"collections/equipment-092.png":"4f9ada6f470ba3749125707ade35ad8e03d64d2e228395d6a0bd5bb2ae8f391a",
-"collections/equipment-093.png":"2e4375adfb8cfaf16ffccb5263022bb278483bf62954118797d04e2707199a78",
-"collections/equipment-094.png":"daeb558dd29e2b7f4a5efc819a9b4f722f072d62e5c0ca0f26bd63c93845bea5",
-"collections/equipment-095.png":"3233f43bc21593326f0cf2725f83d40ac98b775be54e88c191be7d7d2ba96d5b",
-"collections/equipment-096.png":"72f03bd8ee23179e8626ca5ecedc0f273885097520f3f732fe4f3d76e026374b",
-"collections/equipment-097.png":"51043a44b611f3e18f102320dcc3f0ec37bcd6622c61e863f98b776258de22da",
-"collections/equipment-098.png":"b2ce6497814bef4c81aeb0108de88ada688c50ea398bc682922bb18bfe669aeb",
-"collections/equipment-099.png":"c2155f182f7d197aafa8d6bba9c70d849efa09a7f20177d2d883aa1b03a12336",
-"collections/equipment-100.png":"0aff1d6c0766fe5b35c06d1fd8e787ce5ff1966d5beda1b687ba31ac8cc41bdb",
-"collections/equipment-101.png":"361954d2ebbca856e5d9da08aac2c2b9bee0fa4963995fc2924cfb3142d0a7d7",
-"collections/equipment-102.png":"ae628066f90b6b54739d6d518eb04cc39fb12d292b30394664f52daa34c3e74d",
-"collections/equipment-103.png":"90f3c59d8f141283b52831951c6b2d011932d57cb3c57f93f2be534e6e22a77c",
-"collections/equipment-104.png":"c9d5a1f59b0ae2058ee4d9409e9b29d84cfcfccee5d14a57ffd751085f165fb9",
-"collections/equipment-105.png":"606d4884777f779a5326b7228bdf9186367f9eca10b51a48c6af8ee4d01cda9b",
-"collections/equipment-106.png":"f07b172abc62656d3d6a6cb1e74994c724abe3a1081c1496566d00e0fec5e202",
-"collections/equipment-107.png":"fdcc1385c2280ae29c747fbdf51060a3f5c7719206a933c492bf5a48a2463381",
-"collections/equipment-108.png":"94aff6eedaa1325cd04ede362ddbfb714bac9d9a5f9c5b4f025907e406dfb638",
-"collections/equipment-109.png":"5400e76664210dc8897ea5c1921fc132de14736b932254fec501eaef83ff7c4f",
-"collections/equipment-110.png":"854a1a6ab45f6a6eb71c83e66d36d3bd70617138d16f27cc11e361592a7488b8",
-"collections/equipment-111.png":"f4d9ab63184f2a098c12fded286d3e1aeb8021f16769c1d9aa5e220507721170",
-"collections/equipment-112.png":"9922c7a8c8d116948f4db96f79b0c264c5aabb63f99da33d48a7b152b7942dc2",
 "collections/equipment-113.png":"6f54c7fc735906337b9c610d399aad45fb0d8445d86d302f2cbdc7e55f63c17b",
 "collections/equipment-114.png":"e673c625a69e7cf565334fc2f6b60e829bac07d54c3968ea85f86950c9711cd1",
 "collections/equipment-115.png":"4342ae0bcf957c4fad260a2cb1690f9e25724cb38281616315178f44ae515eea",
-"collections/equipment-116.png":"4342ae0bcf957c4fad260a2cb1690f9e25724cb38281616315178f44ae515eea",
 "collections/equipment-117.png":"5583a385992b2d5abdd93cedabaa4918eaa65905c13a9297e29eea88f02b0bf0",
 "collections/equipment-118.png":"130b1c2bafd7b271b98095755c1d6f244461ff95b073f9b36135bf8ddb90cedf",
 "collections/equipment-119.png":"c5e967f36fc331aa7f061350fb7696a752b395797ae922a0b4fa2fd9266d10ea",
@@ -416,8 +364,8 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
   "skills/skill-special.png": "663d337fa30d55b634d1163bb8a58afd65c2b3667707c581263d636375df8bb4",
   "skills/skill-assist.png": "5bb78da9fc97121991707d8eed1345546248d0ce5e53c355822bc5b36de8e79b",
   "skills/skill-derived-three.png": "7549a4a161aa8cc5dbe22be2347aebbd7adaf8d273d013f1e3e6c0afb4aee602",
-  "backgrounds/character-result-s.png":"a2b46c26ef57b82d84c16c4d406b79f9b949932dd0eac1224264a67b66284629",
-"backgrounds/character-result-a.png": "98bf76062c41931cfe6d6764a5ae86b6a8fbc8a9b7252db993f7751ac7d68cc1",
+  "backgrounds/character-result-s.webp":"eea310e0a63aaed81e9adf458d054732baff1685e3e06bb417c29971d98d6e6e",
+"backgrounds/character-result-a.webp":"86af45814dc0b45594f8970620b6e8288f4e82171d51dba03409413dce4b31de",
   "badges/rank-a.png": "cc2d88363b1e1b46ccc659258fe23cf128c177345def652d6e8c1d26e5f831c6",
   "badges/rank-s.png": "0f80eea9a251ed97f389c958ebd896ac11bc507dee604338b15ebbf024b38851",
   "backgrounds/gacha-bg-a.webp": "df12291fa39a5eba2c6b9b839f9b4af37e270e023597a0e08b2bf5617c53bbe2",
@@ -427,7 +375,7 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const fixedOutput=path.join(root,'dist');if(path.resolve(output)!==fixedOutput)throw Error('Output must be the repository dist directory');
  // Only the fixed repository dist folder is replaced; output uses an explicit file list.
  fs.rmSync(fixedOutput,{recursive:true,force:true});fs.mkdirSync(path.join(fixedOutput,'assets'),{recursive:true});
- for(const file of ['index.html','style.css','app.js','render.js','catalog.js','collections.js','extra.js','hero-backgrounds.js','detail-ui.js','map.js','acquisition.js'])fs.copyFileSync(path.join(root,'src',file),path.join(fixedOutput,file));
+ for(const file of ['index.html','style.css','app.js','render.js','catalog.js','collections.js','extra.js','hero-backgrounds.js','detail-ui.js','map.js','acquisition.js','tasks.js','task-map.js'])fs.copyFileSync(path.join(root,'src',file),path.join(fixedOutput,file));
  for(const file of Object.keys(approvedAssets)){fs.mkdirSync(path.dirname(path.join(fixedOutput,'assets',file)),{recursive:true});fs.copyFileSync(path.join(root,'src/assets',file),path.join(fixedOutput,'assets',file));}
  const source={key:'release-ui',title:'已核验客户端的游戏内物品详情',url:'#/version',evidence:'已解锁背包 → 顶部资源栏 → 资源详情。仅收录界面显示的名称、类型和说明。'};
  const legacyCurrencyRecords=game.entries.map(item=>({slug:item.slug,category:'资源货币',title:item.name,summary:item.description.split(/[。\n]/)[0]+'。',label:'游戏内 UI 资料',paragraphs:item.description.split('\n'),facts:[{label:'物品类型',value:item.type,source:'release-ui'},{label:'游戏内查看位置',value:item.uiPath,source:'release-ui'}],source:'release-ui'}));
@@ -435,7 +383,9 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const extraRecords=[...extra.injectors,...extra.maps].map(c=>({slug:c.slug,title:c.name,category:c.kind==='map'?'地图一览':'注射器一览',summary:c.description,paragraphs:[c.description],facts:[],source:'release-ui',label:'资料',collection:c})).concat(extra.banners.map(b=>({slug:'banner-'+b.slug,title:b.name,category:'卡池档案',summary:b.type,paragraphs:[b.description],facts:[],source:'release-ui',label:'刻录规则',banner:b})));
  const characterSource={key:'release-story',title:'固定版本2D角色图与UI分类·正式角色审阅',url:'#/version',evidence:'16人正式服可获取名单由玩家确认；显示字段与图片均固定发布版本。'};
  const characterRecords=game.characters.map(c=>({slug:c.slug,category:'角色图鉴',title:c.name,summary:c.profession+' · '+c.element+' · '+c.style,label:'角色资料',paragraphs:['正式服角色资料，字段按正常UI显示范围收录。'],facts:[{label:'稀有度',value:c.rarity,source:'release-story'},{label:'职业',value:c.profession,source:'release-story'},{label:'属性',value:c.element,source:'release-story'},{label:'风格',value:c.style,source:'release-story'}],character:{availability:publicationBySlug.get(c.slug).availability,releasedOn:publicationBySlug.get(c.slug).releasedOn,reviewStatus:c.reviewStatus,detailStatus:c.detailStatus,art:c.art,cardArt:c.cardArt,professionIcon:c.professionIcon,elementIcon:c.elementIcon,rarityIcon:c.rarityIcon,rarity:c.rarity,profession:c.profession,element:c.element,style:c.style,portrait:c.portrait,skillLevels:c.skillLevels,destiny:c.destiny,calibration:c.calibration,attributeNames:c.attributeNames,attributeLevels:c.attributeLevels,calibrationCosts:c.calibrationCosts,calibrationMaterials:c.calibrationMaterials,calibrationStages:c.calibrationStages,outfits:c.outfits},source:'release-story'}));
- const safe={acquisition,mapAtlas,extra,checkedOn:publicData.checkedOn,sources:[...publicData.sources,source,characterSource],articles:[...characterRecords,...records,...extraRecords,...publicData.articles],release:{hasLimitedDistinction:publication.hasLimitedDistinction,status:release.status,version:release.version,boundaryDate:release.boundaryDate,reviewedOn:release.reviewedOn,scope:release.scope,gameEntryCount:collections.length+game.characters.length,itemCount:collections.filter(c=>c.kind==='item').length,characterCount:game.characters.length,allowedFieldCount:release.allowedFields.length}};
+ const taskRecords=tasks.records.map(t=>({slug:t.slug,title:t.title,category:'任务一览',summary:t.description.slice(0,120),label:tasks.categories.find(c=>c.key===t.type).label,paragraphs:[t.description],facts:[],source:'release-ui',task:true}));
+ for(const t of tasks.records)for(const reward of t.rewards){if(!reward.article)continue;let rows=acquisition.articles[reward.article]||[];if(reward.article.startsWith('injector-'))rows=rows.filter(x=>!/任务.*获取|支线奖励获取/.test(x.name));const source={name:'完成任务：'+t.title,condition:'任务组确定奖励。',costs:[],href:'article/'+t.slug+'/'};if(!rows.some(x=>x.href===source.href))rows.push(source);acquisition.articles[reward.article]=rows;}
+ const safe={tasks,acquisition,mapAtlas,extra,checkedOn:publicData.checkedOn,sources:[...publicData.sources,source,characterSource],articles:[...characterRecords,...records,...extraRecords,...taskRecords,...publicData.articles],release:{hasLimitedDistinction:publication.hasLimitedDistinction,status:release.status,version:release.version,boundaryDate:release.boundaryDate,reviewedOn:release.reviewedOn,scope:release.scope,gameEntryCount:collections.length+game.characters.length,itemCount:collections.filter(c=>c.kind==='item').length,characterCount:game.characters.length,allowedFieldCount:release.allowedFields.length}};
  fs.writeFileSync(path.join(fixedOutput,'data.js'),'export const '+Object.entries(safe).map(([k,v])=>k+' = '+JSON.stringify(v)).join(',\n')+';\n');
  fs.writeFileSync(path.join(fixedOutput,'.nojekyll'),'');
  fs.writeFileSync(path.join(fixedOutput,'robots.txt'),preview?'User-agent: *\nDisallow: /\n':'User-agent: *\nAllow: /\nSitemap: https://lvmengwiki.top/sitemap.xml\n');
@@ -443,7 +393,7 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const html=fs.readFileSync(path.join(fixedOutput,'index.html'),'utf8').replaceAll('/Lumeng-Wiki/',siteBase);
  const rendered=html.replace('<body>','<body data-mode="'+(preview?'preview':'production')+'">').replace('<meta name="description"',preview?'<meta name="robots" content="noindex,nofollow"><meta name="description"':'<meta name="description"');
  const renderPage=createRenderer(safe,siteBase);
- const pagePaths=['','characters','equipment','items','injectors','maps','banners','catalog','version','policy',...safe.articles.map(a=>'article/'+a.slug)];
+ const pagePaths=['','characters','equipment','items','injectors','maps','tasks','banners','catalog','version','policy',...safe.articles.map(a=>'article/'+a.slug)];
  const pageFiles=[];
  for(const route of pagePaths){
    const body=renderPage(new URL('/'+route,'https://local.invalid'));
@@ -456,7 +406,7 @@ export function build({preview=false,output=path.join(root,'dist')}={}){
  const notFound=rendered.replace('<main id="main" tabindex="-1"></main>','<main id="main" tabindex="-1">'+renderPage(new URL('/not-found','https://local.invalid'))+'</main>').replace('<meta name="description"','<meta name="robots" content="noindex,follow"><meta name="description"');
  fs.writeFileSync(path.join(fixedOutput,'404.html'),notFound);
  const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+pagePaths.map(route=>'<url><loc>'+siteOrigin+siteBase+(route?route+'/':'')+'</loc></url>').join('')+'</urlset>\n';fs.writeFileSync(path.join(fixedOutput,'sitemap.xml'),sitemap);
- const files=[...pageFiles,'404.html','style.css','app.js','render.js','catalog.js','collections.js','extra.js','hero-backgrounds.js','detail-ui.js','map.js','acquisition.js','data.js','robots.txt','sitemap.xml','.nojekyll',...Object.keys(approvedAssets).map(file=>'assets/'+file)];
+ const files=[...pageFiles,'404.html','style.css','app.js','render.js','catalog.js','collections.js','extra.js','hero-backgrounds.js','detail-ui.js','map.js','acquisition.js','tasks.js','task-map.js','data.js','robots.txt','sitemap.xml','.nojekyll',...Object.keys(approvedAssets).map(file=>'assets/'+file)];
  const manifest=files.map(file=>({file,bytes:fs.statSync(path.join(fixedOutput,file)).size,sha256:digest(fs.readFileSync(path.join(fixedOutput,file)))}));
  fs.writeFileSync(path.join(fixedOutput,'build-manifest.json'),JSON.stringify({mode:preview?'preview':'production',files:manifest},null,2)+'\n');
  console.log('Built '+(preview?'LOCAL PREVIEW':'PRODUCTION')+': '+files.length+' explicit files; '+game.entries.length+' UI-reviewed currency records; '+game.characters.length+' approved character profiles.');return manifest;

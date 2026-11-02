@@ -2880,6 +2880,24 @@
         "condition": "对应功能解锁后可前往。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-128": [
@@ -2954,6 +2972,12 @@
         "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-130": [
@@ -3028,6 +3052,12 @@
         "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-132": [
@@ -3066,6 +3096,18 @@
         "condition": "解锁对应入口后完成挑战。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-134": [
@@ -3092,6 +3134,18 @@
         "condition": "解锁对应入口后完成挑战。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-136": [
@@ -3118,6 +3172,18 @@
         "condition": "解锁对应入口后完成挑战。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-138": [
@@ -3144,6 +3210,18 @@
         "condition": "解锁对应入口后完成挑战。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-141": [
@@ -3170,6 +3248,18 @@
         "condition": "解锁对应入口后完成挑战。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-144": [
@@ -3244,6 +3334,12 @@
         "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-146": [
@@ -3318,6 +3414,12 @@
         "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "item-148": [
@@ -3392,6 +3494,12 @@
         "condition": "获得并打开对应宝箱；可选奖励以箱内预览为准。",
         "costs": [],
         "href": null
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ],
     "injector-01": [
@@ -3862,6 +3970,66 @@
         "condition": "解锁对应入口后完成挑战。",
         "costs": [],
         "href": null
+      }
+    ],
+    "forging-crystal": [
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      }
+    ],
+    "combat-experience": [
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
+      }
+    ],
+    "skill-training-data": [
+      {
+        "name": "御能者招募",
+        "condition": "永久刻录；消耗原装频带。",
+        "costs": [],
+        "href": "article/banner-permanent-recruitment/"
+      },
+      {
+        "name": "新手刻录",
+        "condition": "新账号专属刻录，最多40次。",
+        "costs": [],
+        "href": "article/banner-beginner-recording/"
+      },
+      {
+        "name": "千幻万变",
+        "condition": "限定刻录开放期间；消耗高能频带。",
+        "costs": [],
+        "href": "article/banner-thousand-transformations/"
       }
     ]
   },
